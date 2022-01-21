@@ -1,0 +1,412 @@
+# gmm-latgen-faster --max-active=7000 "--beam=13.0" "--lattice-beam=6.0" --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/tri1/graph/words.txt exp/tri1/final.mdl exp/tri1/graph/HCLG.fst "ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split1/1/utt2spk scp:data/test/split1/1/cmvn.scp scp:data/test/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |" "ark:|gzip -c > exp/tri1/decode/lat.1.gz" 
+# Started at Sat Apr  3 02:12:58 IST 2021
+#
+gmm-latgen-faster --max-active=7000 '--beam=13.0' '--lattice-beam=6.0' --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/tri1/graph/words.txt exp/tri1/final.mdl exp/tri1/graph/HCLG.fst 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split1/1/utt2spk scp:data/test/split1/1/cmvn.scp scp:data/test/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |' 'ark:|gzip -c > exp/tri1/decode/lat.1.gz' 
+add-deltas ark:- ark:- 
+apply-cmvn --utt2spk=ark:data/test/split1/1/utt2spk scp:data/test/split1/1/cmvn.scp scp:data/test/split1/1/feats.scp ark:- 
+knf_00001_00413020320 ಈ ಶಾಖೆಯ ಕಾಯಿದೆ ಹೆಸರಿಗೆ ಕಾಯಿದೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_00001_00413020320 is -8.11153 over 501 frames.
+knf_00001_00977247973 ರಾಷ್ಟ್ರೀಯ ಹಾಗೂ ಅಂತಾರಾಷ್ಟ್ರೀಯ ನಿಯತಕಾಲಿಕಗಳು ಸಿಗುತ್ತವೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_00001_00977247973 is -7.86901 over 792 frames.
+knf_00001_01200920211 ಅಂತಾರಾಷ್ಟ್ರೀಯ ಕಾರ್ಟೆಲ್ಲುಗಳಲ್ಲಿ ಎರಡು ವಿದಾಯ ಈ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_00001_01200920211 is -8.03795 over 544 frames.
+knf_00001_01610070590 ಒಂದು ಸಾರ್ತಿ ಈ ಪಾರ್ಶ್ವಚಿತ್ರ ನಿರ್ಧಾರಣಾ ವಾದ ನಂತರ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_00001_01610070590 is -7.87071 over 826 frames.
+knf_00001_01623910163 ಸರಣಿಯನ್ನು ಸಾಗಿಸುವ ಮೂವತ್ತಾರು ನಲ್ಲಿ ವಿಪರೀತ ಕಂಪನ ಮತ್ತು ಹಳೆ ಕರೆ ಸ್ಟೇಟ್ ಗಳು ಕಾಣಿಸಿಕೊಂಡವು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_00001_01623910163 is -8.36471 over 945 frames.
+knf_00001_01676291107 ಅದರಿಂದಲೇ ಶರೀರಕ್ರಿಯಾವಿಜ್ಞಾನವನ್ನು ನೋಡಬೇಕು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_00001_01676291107 is -8.22724 over 689 frames.
+knf_00254_00142887464 ನೈಟ್ರೊಜನ್ ನೋದನ ಕೊರತೆಯ ತೀವ್ರತೆಯನ್ನು ಕಂಡುಕೊಳ್ಳಬೇಕಾದರೆ ಅದರ ಅಂಶ ಸಸ್ಯಾಂಗದ ಯಾವ ಭಾಗದಲ್ಲಿ ಪ್ರಪ್ರಥಮ ಕಡಿಮೆಯಾಗಿರುತ್ತದೆಯೋ ಅಲ್ಲಿ ಪರೀಕ್ಷೆ ಮಾಡಬೇಕು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_00254_00142887464 is -9.25309 over 1124 frames.
+knf_00254_00386694014 ಅಲ್ಲದೆ ಜ್ವೆಜ್ದ ಹೊರಾಂಗಣದ ಮೇಲಿರುವ ಆಂಟೆನಗಳ ಮೂಲಕ ಅರ್ಥವೂ ನಿಯಂತ್ರಣಾ ಕಕ್ಷಾ ಸಂಪರ್ಕ ಕೇಂದ್ರಗಳಿಗೆ ಕಳಿಸಲಾಗುತ್ತಿದೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_00254_00386694014 is -9.24015 over 885 frames.
+knf_00254_00422041099 ಈ ವಲಯದ ಮೂಲಕವೇ ನೆಲದಮೇಲೆ ಬಿತ್ತನೆ ಇರುವ ನಿಧಾನ ಗತಿಯಲ್ಲಿ ಜಿನುಗಿ ಅಂತರ್ಜಲ ಭಂಡಾರವಾಗುತ್ತದೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_00254_00422041099 is -9.14896 over 757 frames.
+knf_00254_00567573707 ಇದರ ಸ್ಥಾಪಕ ವಿಲ್ಹೆಮ್ ಉಂಟು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_00254_00567573707 is -8.51676 over 280 frames.
+knf_00254_00872855172 ರೈಲ್ವೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_00254_00872855172 is -7.38942 over 203 frames.
+knf_00254_01109646751 ಈ ಸಂಸ್ಥೆ ತನ್ನ ಬಂಡವಾಳ ವಿನಿಯೋಗದ ಜೊತೆಗೆ ದೇಶದ ಆರ್ಥಿಕ ಬೆಳವಣಿಗೆಗೆ ಅಗತ್ಯವಾದ ಎಲ್ಲ ಅಂಶಗಳನ್ನು ಏರ್ಪಾಟುಗಳನ್ನೂ ವಿಮರ್ಶೆಮಾಡುವ ಹೊಣೆಗಾರಿಕೆಯನ್ನು ಹೊತ್ತಿದೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_00254_01109646751 is -9.2988 over 1065 frames.
+knf_00254_01445391292 ಅಲ್ಲದೇ ಅವುಗಳನ್ನು ಅಲ್ಲಿನ ಅಡುಗೆ ಮನೆಯಲ್ಲಿ ಬೇಯಿಸುತ್ತಾರೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_00254_01445391292 is -8.88892 over 399 frames.
+knf_00254_01541969378 ಸರ್ಕಾರದ ಖಜಾನೆಯ ಇಷ್ಟಾನುಸಾರವಾಗಿ ಎಚ್ಚರ ವ್ಯಾಪಕವಾದ ಬಹಿರಂಗಪಡಿಸುವಿಕೆಯ ಅವಶ್ಯಕತೆಯು ಕಂಡುಬರಬಹುದು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_00254_01541969378 is -8.77062 over 1005 frames.
+knf_00254_01647525555 ಭದ್ರ ಡ್ಯಾಂ ಎಂಬುದು ಒಂದು ಪ್ರವಾಸೀ ಕೇಂದ್ರವಾಗಿದೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_00254_01647525555 is -9.07091 over 339 frames.
+knf_00254_01705277091 ವ್ಯವಸ್ಥಾಪಕ ನಿರ್ದೇಶಕರನ್ನು ನಿರ್ಧರಿಸುವ ಕಾರ್ಯನಿರ್ವಾಹಕ ನಿರ್ದೇಶಕರನ್ನು ಆಯ್ಕೆ ಮಾಡಲಾಗುತ್ತದೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_00254_01705277091 is -8.61866 over 834 frames.
+knf_00557_00470699635 ಅಂಗುತ್ತರವೆಂದರೆ ಇನ್ನೊಂದು ಅಂಗವೆಂದರ್ಥ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_00557_00470699635 is -8.3936 over 510 frames.
+knf_00557_00693422845 ಇಂದ್ರನಂತೆ ನೂರಾರು ಕುದುರೆಗಳು ಹೂಡಿದ ರಥದಲ್ಲಿ ಸಂಚರಿಸುವವನು ಆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_00557_00693422845 is -8.24886 over 706 frames.
+knf_00557_01097230618 ಪರ್ವತಗಳು ವಾಯುವೂ ಅನುಗುಣವಾಗಿದೆ ಕಂಪಿಸುವುವು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_00557_01097230618 is -8.4931 over 501 frames.
+knf_00557_01128272548 ಸರ್ಪವೇದ ಆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_00557_01128272548 is -7.82414 over 314 frames.
+knf_00557_01945435360 ಹೂಗೊಂಚಲಿನಲ್ಲಿ ಹಣ್ಣು ಅವುಗಳು ಮಾತ್ರವಿದೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_00557_01945435360 is -8.95686 over 442 frames.
+knf_01493_00404659685 ವಿದ್ಯುನ್ಮಂಡಲದಲ್ಲಿ ವಿದ್ಯುತ್ತಿನಿಂದ ವಿದ್ಯುತ್ ಪೂರಣವಾದ ಅಣುವಿನ ಸ್ಥಾಯೀ ಈ ವಿದ್ಯುತ್ತಿನ ಅಂತಸ್ಥ ಶಕ್ತಿಯಾಗಿದೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_01493_00404659685 is -8.454 over 1090 frames.
+knf_01493_00497544022 ಈ ತತ್ವವನ್ನು ಭಾರತದಲ್ಲಿ ವ್ಯವಸಾಯ ಕ್ಷೇತ್ರದಲ್ಲಿ ಬಹಳವಾಗಿ ಉಪಯೋಗಿಸುತ್ತಾರೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_01493_00497544022 is -8.34055 over 664 frames.
+knf_01493_01634609182 ಇದು ನಿಲ್ದಾಣ ಗಾಜು ನಾನಾ ಯೋಜನೆಗಳಿಗೆ ತಾತ್ಕಾಲಿಕ ತಡೆಯೊಡ್ಡಿತು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_01493_01634609182 is -8.50386 over 587 frames.
+knf_01493_01656566847 ಹತ್ತಿಯನ್ನು ಬೆಳೆದು ಎಲ್ಲವನ್ನೂ ಹೊರದೇಶಗಳಿಗೆ ರಫ್ತು ಮಾಡುತ್ತಾರೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_01493_01656566847 is -8.51938 over 544 frames.
+knf_01493_01861639807 ಹಸುಗೂಸಿನಲ್ಲಿ ಕಾಣಬರುವ ರಕ್ತ ಕೊರತೆ ಬಹುಮಟ್ಟಿನ ಕಾರಣ ರೋಗದ ಜನ ತಂದೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_01493_01861639807 is -8.59431 over 749 frames.
+knf_01493_01995951894 ಜಗತ್ಕಾರಣವಾದ ಪರತತ್ತ್ವವೇ ಹೀಗೆ ಬೇರೆ ಬೇರೆ ರೂಪಗಳಲ್ಲಿ ನಮ್ಮನ್ನು ಕೈಹಿಡಿದು ನಡೆಸುತ್ತದೆ ಎಂದು ವರ್ಣಿಸಿದ್ದಾರೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_01493_01995951894 is -8.3424 over 988 frames.
+knf_01779_01043659655 ಅಂಜದೀವ್ನ ಬಳಿ ಭಾರತದ ಜಲನೌಕೆಗಳು ಮೊದಲಾದ ಪೋರ್ಚುಗೀಸ್ ಪಡೆಗಳು ಶರಣಾಗತವಾದವು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_01779_01043659655 is -8.49823 over 792 frames.
+knf_01779_01102803566 ಮೊದಲು ಇದು ಪೋರ್ಚುಗೀಸರ ಸ್ವಾಧೀನದಲ್ಲಿತ್ತು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_01779_01102803566 is -7.94815 over 527 frames.
+knf_01779_01391037344 ಉದಾಹರಣೆಗೆ ಎರಡು ತಂಡಗಳು ಪರಸ್ಪರ ಎದುರುಬದರಾಗಿ ಸಂಧಿಸಿ ಮಂದವಾದ ಭಾರತವೂ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_01779_01391037344 is -8.49998 over 766 frames.
+knf_01779_02024713720 ಅಂತರ್ಜಾಲ ಸೌಲಭ್ಯ ಇಲ್ಲದವರಿಗೆ ಅಂತಾರಾಷ್ಟ್ರೀಯ ಧನಾದೇಶ ಸ್ವೀಕೃತಿ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_01779_02024713720 is -8.26096 over 681 frames.
+knf_01796_00681401725 ಆದರು ಕೂಡಾ ಈ ಅಂದಾಜನ್ನು ಅಪೋಲೋ ಪ್ರೋಗ್ರಾಂನ ಕಾಗದದ ಮೇಲೆ ಮಾಡಲಾಗಿದ್ದು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_01796_00681401725 is -8.71011 over 664 frames.
+knf_01796_00821693610 ಆಲದ ಇಂತಹ ಶಿಲೆಗಳಲ್ಲಿ ಹೆಚ್ಚಿನ ವೇಳೆ ಬಿರುಕುಗಳಿರುವುದರಿಂದ ಇವುಗಳ ಮೂಲಕ ನೀರು ನೆಲದಾಳಕ್ಕೆ ಇಳಿಯುತ್ತದೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_01796_00821693610 is -8.26092 over 1031 frames.
+knf_01796_01050913875 ಸಮಯಸಾಧಕ ಮುಂದಾಳುಗಳು ಈ ಅಂತಾರಾಷ್ಟ್ರೀಯದ ಕಡೆಯ ವರ್ಷಗಳಲ್ಲಿ ಸಮಾಜವಾದಿ ತತ್ವವನ್ನು ಕೈಬಿಟ್ಟು ಗುಜರಾತ್ ಸುಧಾರಣಾ ನೀತಿಗೆ ಮಾರುಹೋಗಿ ಅದರ ಕ್ರಾಂತಿಕಾರಿ ನೀತಿಯನ್ನು ಮಟ್ಟಕ್ಕು ಈ ಮಾಡಿದರು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_01796_01050913875 is -8.55055 over 1918 frames.
+knf_02049_00114697512 ಅಲ್ಲದೇ ಒಂದು ಗಗನಯಾತ್ರೆಯ ಕಮಾಂಡರ್ ಮತ್ತು ಗಗನಯಾತ್ರೆಯ ಕಮಾಂಡರ್ ಗೆ ನಿಲ್ದಾಣವನ್ನು ಅಧಿಕೃತವಾಗಿ ಒಪ್ಪಿಸಿದ ನಂತರದ ಗಗನಯಾತ್ರೆಯನ್ನು ಪ್ರಾರಂಭಿಸಲಾಗುತ್ತದೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_02049_00114697512 is -9.17425 over 1210 frames.
+knf_02049_00235999111 ಇದರ ರಾಜ ವಿಶ್ವದಷ್ಟು ವಿಸ್ತಾರ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_02049_00235999111 is -8.60285 over 356 frames.
+knf_02049_01735356079 ಇದರಿಂದಾಗಿ ದ್ವಿತೀಯ ಅಂತಾರಾಷ್ಟ್ರೀಯ ಅವಸಾನಗೊಂಡಿತು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_02049_01735356079 is -8.62357 over 587 frames.
+knf_02049_01784472631 ವೈಜ್ಞಾನಿಕವಾಗಿ ಪೂರಕ ಪ್ರದೇಶದಿಂದ ವಿಸರ್ಜಕ ಪ್ರದೇಶಗಳೆಡೆಗೆ ಹರಿಯುತ್ತದೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_02049_01784472631 is -9.01382 over 732 frames.
+knf_02049_01955479682 ಹಗಲಿನ ಶಸ್ತ್ರಚಿಕಿತ್ಸಾ ಕೇಂದ್ರಗಳ ಮೂಲಕ ಅನೇಕ ರೋಗಿಗಳ ನಿಗಾವಣೆ ನಡೆಯುತ್ತಿದ್ದು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_02049_01955479682 is -9.19173 over 715 frames.
+knf_02049_02025772085 ಇವುಗಳನ್ನು ಮೂಲವಾಗಿಟ್ಟುಕೊಂಡು ಎಲ್ಲ ಜಟಿಲವಾದ ಸಮಸ್ಯೆಗಳನ್ನು ಬಗೆಹರಿಸಬಹುದು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_02049_02025772085 is -9.01926 over 664 frames.
+knf_02173_00088208001 ಎಂಟ್ನೂರು ಮೀಟರ್‌ಗಳಲ್ಲಿ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_02173_00088208001 is -7.74801 over 271 frames.
+knf_02173_00798528092 ರಾಂಪ್‌ನಲ್ಲಿ ಬಲಕ್ಕೆ ತಿರುಗಿ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_02173_00798528092 is -8.26095 over 245 frames.
+knf_02173_02031667415 ನಾಲ್ನೂರು ಗಜಗಳಲ್ಲಿ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_02173_02031667415 is -7.65825 over 280 frames.
+knf_03271_00149014152 ಫ್ರೆಂಚ್ ಮತ್ತು ಜರ್ಮನ್ ಮಾರ್ಕ್ಸ್ ವಾದಿಗಳು ಇದರ ಸ್ಥಾಪನೆಯ ಕಾಲದಲ್ಲಿ ಪ್ರಭಾವಶಾಲಿಗಳಾಗಿದ್ದರು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_03271_00149014152 is -8.49475 over 681 frames.
+knf_03271_01280046274 ಮಣ್ಣು ಹಾಗು ಸಂಪುಟದ ನಡುವಿನ ಜಾಗವನ್ನು ಒತ್ತಡಕ್ಕೊಳಪಡಿಸಿರುತ್ತಾರೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_03271_01280046274 is -8.66467 over 527 frames.
+knf_03271_01629528503 ಚಿತ್ರವನ್ನು ಕೆಲವೊಮ್ಮೆ ವಾರ್ನಿಷ್ ಅಥವಾ ಕೆಲವು ಇತರ ಮುದ್ರಕಗಳನ್ನು ರಕ್ಷಣೆಯಾಗಿ ಲೇಪನ ಮಾಡಲಾಗುತ್ತದೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_03271_01629528503 is -8.83904 over 612 frames.
+knf_03271_02015774897 ಸಸ್ಯದಲ್ಲಿ ತಗ್ಗಿದ ಉಷ್ಣತೆ ಚಿಕಿತ್ಸೆ ಹೆಚ್ಚಾದಂತೆ ಬಿತ್ತನೆ ಮಾಡುವುದಕ್ಕೂ ಮತ್ತು ಕೊಯಿಲು ಮಾಡುವುದಕ್ಕೂ ಮತ್ತೆ ಇರುವ ಕಾಲವು ಕಡಿಮೆಯಾಗುತ್ತದೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_03271_02015774897 is -8.76474 over 979 frames.
+knf_03271_02018138424 ರಂದ್ರಯುಕ್ತಿಗಳ ಕ್ರಿಯಾತ್ಮಕ ಗುಂಪು ನಿರ್ದಿಷ್ಟ ಅಂಗಾಂಶಗಳಿಗೆ ಚಿಕ್ಕ ಅಣುಗಳ ಸಾಗಾಣಿಕೆಯಲ್ಲಿ ಉಪಯೋಗವಾಗಬಹುದು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_03271_02018138424 is -8.7772 over 800 frames.
+knf_03467_00276108653 ಪೂರ್ವ ಮತ್ತು ಪಶ್ಚಿಮ ಭಾಗಗಳ ನಡುವಿನ ಪ್ರಸ್ಥಭೂಮಿ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_03467_00276108653 is -8.26596 over 519 frames.
+knf_03467_00296369160 ಪ್ರಕೃತಿಯ ರೌದ್ರ ಸ್ವರೂಪವನ್ನು ಇವನು ಪ್ರತಿನಿಧಿಸುತ್ತಾನೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_03467_00296369160 is -7.60258 over 809 frames.
+knf_03467_00425446801 ಅಂತಾರಾಷ್ಟ್ರೀಯ ವ್ಯವಹಾರವು ಅಂತರಾಷ್ಟ್ರೀಯ ವ್ಯಾಪಾರಕ್ಕಿಂತ ವಿಶಾಲವಾಗಿದೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_03467_00425446801 is -8.09138 over 664 frames.
+knf_03467_00623433865 ಅಂತರ್ಜಾಲಗಳು ಬಳಕೆದಾರನ ನಿರ್ದಿಷ್ಟ ಒ ಉದ್ದೇಶದ ಮೇಲೆ ಅವಲಂಬಿತವಾಗಿರುವುದರಿಂದ ನಿಯೋಗವು ಯಾರೊಂದಿಗೆ ಮುಖಾಮುಖಿ ಮಾಡುತ್ತಿರುವಿರೆಂದು ನಿಮಗೆ ನಿರ್ದಿಷ್ಟವಾಗಿ ತಿಳಿದಿರುತ್ತದೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_03467_00623433865 is -8.33632 over 1696 frames.
+knf_03467_01959641002 ಸರ್ಕಾರಿ ಕ್ಷೇತ್ರಕ್ಕೆ ಸೇರಿದ ಉದ್ಯಮಗಳಿಗೆ ಅಥವಾ ವಿಶೇಷವಾಗಿ ಸರ್ಕಾರಿ ಪ್ರಭಾವಕ್ಕೆ ಒಳಪಟ್ಟಿರುವ ಸಂಸ್ಥೆಗಳಿಗೆ ನೆರವು ಸಿಗುವುದಿಲ್ಲ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_03467_01959641002 is -8.25477 over 1133 frames.
+knf_03574_00145342156 ಹಚ್ಚುವ ಮೊದಲು ಲೋಕಗಳ ಮೈಯನ್ನು ಉಜ್ಜಿ ಒರಟು ಮಾಡುವುದು ಒಳ್ಳೆಯದು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_03574_00145342156 is -8.58207 over 501 frames.
+knf_03574_00156386493 ಒಂದನೆಯ ಮಹಾಯುದ್ಧಕ್ಕೂ ಇದೇ ಮೂಲವೆನ್ನುವವರೂ ಇದ್ದಾರೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_03574_00156386493 is -8.27526 over 467 frames.
+knf_03574_00338085389 ಅಂತರ್ಜಾಲದ ಬಳಕೆ ಮತ್ತು ಹೊಸ ಆ ತಂತ್ರಜ್ಞಾನಗಳು ಕಾಲಾನುಕ್ರಮದಲ್ಲಿ ವಿಕಸಿತವಾಗುತ್ತ ಹೋದಂತೆ ಈ ವಿಧಾನಗಳೂ ಕೂಡಾ ಬದಲಾಗುತ್ತಿವೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_03574_00338085389 is -8.49681 over 1065 frames.
+knf_03574_01609069976 ಅಲ್ಲದೆ ಅದಕ್ಕೆ ಅಗತ್ಯ ತರಬೇತಿ ವ್ಯವಸ್ಥೆ ಮಾಡಿದರು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_03574_01609069976 is -8.27003 over 442 frames.
+knf_03755_00398180127 ಹಗಲಿನ ವೇಳೆಯಲ್ಲಿನ ಭೂಮಿಯ ಮೇಲೆ ಬೆಳಕಿರುವ ಭಾಗದಲ್ಲಿ ಬ್ಯಾಟರಿಗಳನ್ನು ಪುನರಾವೇಶಿಸಲಾಗುತ್ತದೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_03755_00398180127 is -8.25 over 766 frames.
+knf_03755_00400685745 ಈ ನಿದರ್ಶನದಲ್ಲಿ ಮಾಡಬಹುದಾಗಿದೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_03755_00400685745 is -7.94861 over 382 frames.
+knf_03755_00509615417 ಇಂತಹ ಹಂಚಿಕೆಯನ್ನು ಹಲವಾರು ವಿಧಾನಗಳಲ್ಲಿ ಮಾಡಬಹುದು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_03755_00509615417 is -7.95774 over 476 frames.
+knf_03755_01420581943 ಆದರೂ ಅಂತಹ ತುಣುಕುಗಳು ಸ್ವತಃ ತಮ್ಮನ್ನು ಬೃಹತ್ ಗೋಡೆಗಳು ಅಥವಾ ಏಕಶಿಲೆಗಳಾಗಿ ಪ್ರಸ್ತುತಪಡಿಸುತ್ತದೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_03755_01420581943 is -8.44608 over 877 frames.
+knf_03755_01455637299 ಏಕೆಂದರೆ ಅವರು ಉಸಿರಿನ ಮೂಲಕ ಹೊರಹಾಕಿದ ಇಂಗಾಲದ ಡೆ ಆಕ್ಸೈಡ್ ನ ಗುಳ್ಳೆಗಳು ಅವರ ತಲೆಯ ಸುತ್ತಲೇ ಉಳಿದುಕೊಳ್ಳುತ್ತವೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_03755_01455637299 is -8.65601 over 877 frames.
+knf_03844_01662506119 ಈ ಈ ತಿನ್ನಲು ಪ್ರಾರಂಭಕ್ಕೆ ಅನೇಕ ವಿಶ್ವ ನಾಯಕರಿಂದ ಸಹಕಾರವನ್ನು ಇದೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_03844_01662506119 is -8.75188 over 792 frames.
+knf_03844_01783103658 ಈ ಪದ್ದತಿಯಲ್ಲಿ ವ್ಯಾಜ್ಯದವರು ಅಂಕಿ ಬೇಕಾಗುವ ವ್ಯಾಮೋಹ ಉದ್ದೇಶವನ್ನು ನಾವು ಸೂಚಿಸಿದ್ದು ಉಕ್ಕಬಹುದು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_03844_01783103658 is -8.71127 over 1073 frames.
+knf_05550_00445854911 ಮಾರುಕಟ್ಟೆ ವಿಸ್ತರಣೆ ಈ ವ್ಯವಹಾರವು ಮಾರುಕಟ್ಟೆಗಳನ್ನು ವಿಸ್ತರಿಸುತ್ತದೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_05550_00445854911 is -8.9737 over 621 frames.
+knf_05550_00658415434 ನೀರಿನ ಆವಿಯಿದ್ದರೆ ತನ್ನ ದೃಢತೆಯನ್ನು ಕಳೆದುಕೊಳ್ಳುವುದರಿಂದ ಅವುಗಳ ಆ ಉಪಯೋಗ ಕಾಗದಗಳನ್ನು ಅಂಟಿಸಲು ಮಾತ್ರ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_05550_00658415434 is -9.43928 over 954 frames.
+knf_05550_00806051978 ಅಂತರಾಷ್ಟ್ರೀಯ ಅಭಿವೃದ್ಧಿ ಸಂಸ್ಥೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_05550_00806051978 is -8.76571 over 365 frames.
+knf_05550_01010202503 ಅಂತರಿಕ್ಷಯಾನ ಇಂಜಿನಿಯರುಗಳು ನಾಗರಿಕ ಅಭಿಮಾನ ನೋದನ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_05550_01010202503 is -9.20451 over 527 frames.
+knf_05550_01207101906 ಅಮೃತಮಂಥನದಲ್ಲಿ ನೋದನ ಮಂತ್ರಿ ಹುಟ್ಟಿ ನೋಡಲು ಕಥೆ ಅಮೃತವನ್ನು ತಂದನೆಂದು ಮಹಾಭಾರತದಲ್ಲಿ ಹೇಳಿದೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_05550_01207101906 is -9.33757 over 800 frames.
+knf_05550_01969100159 ಅಂದರೆ ಇಪ್ಪತ್ತಕ್ಕೆ ಹತ್ತರ ಎರಡು ಚಿಹ್ನೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_05550_01969100159 is -9.0674 over 416 frames.
+knf_05550_02041579028 ಅಂತರಿಕ್ಷದೇವತೆಗಳಲ್ಲೆಲ್ಲ ಓಜಸ್ಸು ಉಳ್ಳ ವನ್ನು ಬಲಿಷ್ಠನೂ ಆದವನು ಇಂದ್ರ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_05550_02041579028 is -9.13463 over 689 frames.
+knf_05820_00196944896 ಅದು ಒಂದು ಬಗೆಯ ಸ್ಪಷ್ಟವಾದ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_05820_00196944896 is -8.01301 over 339 frames.
+knf_05820_00284655247 ಶಸ್ತ್ರವೈದ್ಯವನ್ನು ಮಾಡುತ್ತಿದ್ದವರು ಕಿರು ಜಾತಿಯವರಾದರು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_05820_00284655247 is -8.4353 over 467 frames.
+knf_05820_00760499597 ಕೂಡಿಸು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_05820_00760499597 is -7.69949 over 220 frames.
+knf_05820_01182827519 ಸ್ವೀಕರಣಾ ವಿಭಾಗವು ಅಸ್ತವ್ಯಸ್ತಗೊಂಡಿರಬಹುದಾದ ಸಾಧ್ಯತೆಗಳಿವೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_05820_01182827519 is -8.17322 over 553 frames.
+knf_05820_01696911060 ಈ ಚಿಕಿತ್ಸೆಯನ್ನು ಬೇರೆಬೇರೆ ಸಸ್ಯಗಳಲ್ಲಿ ಬೇರೆಬೇರೆ ಹಂತಗಳಲ್ಲಿ ಕೊಡಬೇಕಾಗುವುದು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_05820_01696911060 is -8.39446 over 612 frames.
+knf_06123_00344050839 ಆ ಎತ್ತರದ ಕೆಳೆಗೆ ಪರಕೀಯ ವಿಮಾನಗಳು ಒಂದು ದೇಶದ ಮೇಲೆ ಅದರ ಒಪ್ಪಿಗೆಯಿಲ್ಲದೆ ಹಾರಾಡುವುದು ನಿಷೇಧ ನ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_06123_00344050839 is -8.37435 over 740 frames.
+knf_06123_00425937714 ಆದರೆ ಈ ಕಡ್ಡಾಯ ಎಂಬ ನಿಯಮವು ಮೂವತ್ತಾರು ಅಧಿನಿಯಮವನ್ನು ಒಂದೊಂದು ಬಾರಿ ಕಾರ್ಯಕ್ಷೇತ್ರದ ವ್ಯಾಪ್ತಿ ಬಗ್ಗೆ ತಪ್ಪಾಗಿ ಅರ್ಥೈಸಲಾಗುತ್ತದೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_06123_00425937714 is -8.42137 over 885 frames.
+knf_06123_00469293098 ಭಾರತದ ಮಾಜಿ ವೇಗದ ಬೌಲರ್ ಮತ್ತು ಪಂಜಾಬಿ ನಟ ಯುವರಾಜ್ ಸಿಂಗ್ರ ಮಗನಾದ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_06123_00469293098 is -8.20254 over 698 frames.
+knf_06123_01461977831 ಇದರಲ್ಲಿ ಕೊನೆಯ ಗುಂಪು ವ್ಯತ್ಯಾಸವಾಗಬಲ್ಲ ಅಂಕಿಗಳ ಸಂಖ್ಯೆ ಹೊಂದಿರುತ್ತದೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_06123_01461977831 is -8.50445 over 595 frames.
+knf_06123_01599183050 ಗ್ರಾಮದಲ್ಲಿ ಫಲವತ್ತಾದ ಭೂಮಿ ಇರುವುದರಿಂದ ಇಪ್ಪತ್ತು ಪ್ರತಿಶತ ಜನಸಂಖ್ಯೆ ಕೃಷಿಯಲ್ಲಿ ನಿರತರಾಗಿದ್ದಾರೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_06123_01599183050 is -8.57414 over 757 frames.
+knf_07345_00588277191 ತತ್ತ್ವಜ್ಞರು ಜಗತ್ತಿನ ಸತ್ಯತೆ ವಿಚಿತ ಗಳನ್ನು ವಿಮರ್ಶಿಸುವಾಗ ಜಗತ್ತಿನಲ್ಲಿರುವ ಸತ್ಯವಾವುದು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_07345_00588277191 is -8.18286 over 1116 frames.
+knf_07345_01137318096 ಅಲ್ಲದೇ ಭವಿಷ್ಯದ ಬಹು ರಾಷ್ಟ್ರೀಯ ವೈಜ್ಞಾನಿಕ ಕಾರ್ಯಾಚರಣೆಗೆ ಪಟ್ಟಿಯ ವಿಷಯಗಳನ್ನು ಒದಗಿಸುತ್ತದೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_07345_01137318096 is -8.5637 over 860 frames.
+knf_07345_01641316274 ಆಂತರಿಕ ದಹನಕಾರಿ ಇಂಜಿನ್ ಎಂದರೆ ಸಾಮಾನ್ಯವಾಗಿ ದಹನ ಅಂತರಿಕವಾಗಿರುವ ಒಂದು ಎಂಜಿನ್ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_07345_01641316274 is -8.21892 over 1082 frames.
+knf_07345_01995564245 ಇದೇ ರೀತಿ ಚಳಿಗಾಲದ ಜವೆಗೋದಿಯ ತಳಿಯ ಮೊಳೆಯುತ್ತಿರುವ ಬೀಜಗಳನ್ನು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_07345_01995564245 is -8.22771 over 757 frames.
+knf_07598_00253012742 ಗುರುತ್ವಾಕರ್ಷಣಾ ಮಾದರಿಯು ಮೂಲಭೂತವಾಗಿ ಆಮದಿಗೆ ಗಮನ ಕೊಡುತ್ತದೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_07598_00253012742 is -8.44758 over 587 frames.
+knf_07598_01631680169 ಅಲ್ಲದೇ ಇದರ ಕಾಯಿಗಳಿಗಾಗಿ ಗ್ರಾಮಾಂತರ ಪ್ರದೇಶಗಳಲ್ಲಿ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_07598_01631680169 is -8.32574 over 493 frames.
+knf_08476_00023010443 ತನ್ನ ವ್ಯವಹಾರದಿಂದ ಸಂಭವಿಸಬಹುದಾದ ಎಲ್ಲಾ ಲಾಭನಷ್ಟಗಳಿಗೂ ಈ ಸಂಸ್ಥೆಯೇ ಪೂರ್ಣವಾಗಿ ಹೊಣೆಯಾಗಿದೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_08476_00023010443 is -8.36384 over 945 frames.
+knf_08476_00919951349 ಪ್ರಯೋಗಶೀಲತೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_08476_00919951349 is -7.68343 over 297 frames.
+knf_08476_01140084904 ಪರಿಸ್ಥಿತಿಯ ಹೇಗೆ ದರ ದ್ವಿತೀಯ ಅಂತಾರಾಷ್ಟ್ರೀಯವು ಶ್ರಮಜೀವಿಗಳ ಅನೇಕ ಹೋರಾಟಗಳಲ್ಲಿ ಜಯಗಳಿಸಿ ಕಾರ್ಮಿಕರ ಚಳವಳಿಯನ್ನು ಪ್ರಭಾವಶಾಲಿಯನ್ನಾಗಿ ಮಾಡಿತು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_08476_01140084904 is -8.44904 over 1432 frames.
+knf_09123_01087915920 ಭಾರತೀಯ ಬಾಂಧವರನ್ನು ಮತ್ತು ಪೋರ್ಚುಗೀಸರ ವಶದಲ್ಲಿದ್ದ ಇನ್ನುಳಿದ ವಸಾಹತುಗಳನ್ನು ಭಾರತ ಹೇಗೆ ಮುಕ್ತಿಗೊಳಿಸಿತೆಂಬುದು ಇಂದಿನ ಇತಿಹಾಸಕ್ಕೆ ಸೇರಿಕೊಂಡಿರುವ ವಿಷಯ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_09123_01087915920 is -8.14381 over 1747 frames.
+knf_09123_01402865830 ಪಟ್ಟಿಯ ಮಾನದಂಡ ಅಂಕ ಅಂಗೀಕೃತ ಪದ್ದತಿಯಲ್ಲಿ ಬಳಸಲಾಗುತ್ತದೆ ಈ ಮತ್ತು ಗುಣಮಟ್ಟದ ಕೆಲಸದ ಎಂದು ವೇಳೆ ಕಾಮನ್ ಏನು ಚರ್ಚೆಗೆ ಅವಕಾಶ ಎಂದು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_09123_01402865830 is -8.17522 over 1619 frames.
+knf_09696_00069342685 ಮಾಗಿದ ಹಣ್ಣುಗಳನ್ನು ಕಿತ್ತು ಹಣ್ಣಿನಮೇಲೆ ಹಣ್ಣು ಬೀಳದಂತೆ ಇತರ ಕೇಂದ್ರ ಮರದ ತಟ್ಟೆಯಲ್ಲಿಡುತ್ತಾರೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_09696_00069342685 is -8.66412 over 783 frames.
+knf_09696_00132652399 ಪ್ರಪಂಚದಲ್ಲಿ ಪದೇ ಪದೇ ಸಂಭವಿಸುವ ಬಿಕ್ಕಟ್ಟುಗಳಿಗೂ ಯುದ್ಧಗಳಿಗೂ ರಾಷ್ಟ್ರಗಳ ನಡುವೆ ಸಹಕಾರ ಇಲ್ಲದಿರುವುದೇ ಕಾರಣ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_09696_00132652399 is -8.80712 over 903 frames.
+knf_09696_00309359849 ಪಾತ್ರ ಹಾಗು ಜವಾಬ್ದಾರಿಗಳಿಗೆ ಅನುಸಾರವಾಗಿ ಅನ್ವಯಗಳನ್ನು ಬಳಕೆ ಮಾಡಬಹುದು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_09696_00309359849 is -8.77544 over 621 frames.
+knf_09696_00375999980 ಒಂದು ದೇಶದ ಅಂತರಿಕ್ಷ ಪ್ರದೇಶದಲ್ಲಿ ಯಾವ ಬಗ್ಗೆ ವಿಮಾನಗಳು ಹಾರಾಡಬಹುದೆಂಬುದನ್ನು ನಿಗದಿ ಮಾಡಿದ್ದಾರೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_09696_00375999980 is -8.77988 over 783 frames.
+knf_09696_00657972668 ಅಂಗಾಂಶ ಇಂಜಿನಿಯರಿಂಗ್ ಈಗ ಎದುರಿಸುತ್ತಿರುವ ಮುಖ್ಯ ಸವಾಲು ಏನೆಂದರೆ ಇದು ಇನ್ನೂ ಹೆಚ್ಚಿನ ಕಾರ್ಯನಿರ್ವಹಣೆಯನ್ನು ಹೊಂದುವಂತಹುದ್ದಾಗಬೇಕಾಗಿದೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_09696_00657972668 is -8.76605 over 885 frames.
+knf_09696_00779393186 ಈ ವ್ಯವಹಾರ ಶಿಕ್ಷಣ ವಂತರಿಗೆ ಮಾತ್ರ ಸಾಧ್ಯ ಅವಿದ್ಯಾವಂತರಿಗೆ ಇದು ಸೂಕ್ತವಲ್ಲ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_09696_00779393186 is -8.65233 over 587 frames.
+knf_09696_01661748829 ಭೌಗೋಳಿಕ ವಿಶೇಷತೆ ಮತ್ತು ಕ್ರಮ ವಿಭಜನೆ ಎಲ್ಲಾ ದೇಶಗಳು ಒಂದೇ ರೀತಿಯ ಹವಗುಣ ಮತ್ತು ವಾಯುಗುಣ ಹೊಂದಿರುವುದಿಲ್ಲ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_09696_01661748829 is -8.79619 over 817 frames.
+knf_09696_02009165869 ಹವಾಮಾನ ಅನನಕೂಲವಾಗಿದ್ದರೆ ಇವುಗಳನ್ನು ಒಂದು ದಿನದಲ್ಲಿ ಪೂರ್ಣಗೊಳಿಸುವುದಿಲ್ಲ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knf_09696_02009165869 is -8.52948 over 647 frames.
+knm_00180_00250075112 ಇದೊಂದು ಪೌಷ್ಟಿಕವಾದ ಹಣ್ಣು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_00180_00250075112 is -7.39525 over 647 frames.
+knm_00180_00297370869 ಈ ಬಗೆಯ ಚಿಲುಮೆಗಳು ತಮಿಳುನಾಡಿನ ನೈವೇಲಿಯ ಸುತ್ತಮುತ್ತ ಹೆಚ್ಚು ಕಂಡುಬರುತ್ತದೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_00180_00297370869 is -7.74607 over 1031 frames.
+knm_00180_01032527602 ತಾರ್ಕಿಕ ಸಿದ್ಧಾಂತ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_00180_01032527602 is -7.01139 over 570 frames.
+knm_00180_01188180749 ಹನ್ನೆರಡು ಇಂಚುಗಳಿಗೆ ಒಂದು ಮಾಡಿ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_00180_01188180749 is -7.22358 over 706 frames.
+knm_00180_01979139119 ಅಂಜೂರದ ವ್ಯವಸಾಯಕ್ಕೆ ಅಕ್ಕಿ ಫಲವತ್ತಾದ ಮಣ್ಣು ಬೇಕಾಗಿಲ್ಲ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_00180_01979139119 is -7.5022 over 988 frames.
+knm_00180_01994023075 ಈ ಚಿತ್ರಗಳ ಆಸೆಯಿಂದಾಗಿ ಇಂತಹ ಚೀಟಿಗಳನ್ನು ಸಂಗ್ರಹಿಸುವುದೇ ಅನೇಕರ ಹವ್ಯಾಸವಾಗಿದೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_00180_01994023075 is -7.79016 over 1167 frames.
+knm_00271_00413960012 ಈ ಸಮ್ಮೇಳನ ಕೇಂದ್ರ ಬ್ಯಾಂಕುಗಳೊಳಗೆ ಬೆಳೆಯಬೇಕಾದ ಸಹಕಾರದ ಆವಶ್ಯಕತೆಯನ್ನು ಒತ್ತಿ ಹೇಳಿತು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_00271_00413960012 is -8.62734 over 698 frames.
+knm_00271_00720410666 ಈ ನಿಯೋಗವು ನಿಮ್ಮ ಗಮ್ಯಸ್ಥಾನವನ್ನು ತಲುಪುತ್ತೀರಿ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_00271_00720410666 is -8.53501 over 433 frames.
+knm_00271_01073654763 ಶಸ್ತ್ರ ಚಿಕಿತ್ಸೆಯಲ್ಲಿ ಕತ್ತಿ ಮುಂತಾದ ಶಲ್ಯಗಳು ಇವನ್ನು ಸೋಕಿದರೆ ಅಪಾಯ ಎಂದು ಹೇಳಲಾಗಿದೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_00271_01073654763 is -8.53078 over 903 frames.
+knm_00271_01157281735 ಈ ನಿಮ್ಮ ಗಮ್ಯಸ್ಥಾನ ಎಡಕ್ಕಿದೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_00271_01157281735 is -7.79494 over 450 frames.
+knm_00271_01689467106 ಎಳೆಯುವುದನ್ನು ಬಿಟ್ಟರೆ ಶಕ್ತಿಯು ಚಲನಾತ್ಮಕ ಶಕ್ತಿಯಾಗಿ ಪರಿವರ್ತನೆಯಾಗುತ್ತದೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_00271_01689467106 is -8.34707 over 749 frames.
+knm_00378_01481393426 ಕೆಲವು ರಾಜ್ಯಗಳು ಇಂತಹ ಪ್ರಕರಣಗಳ ಇತ್ಯರ್ಥಕ್ಕೆ ನ್ಯಾಯಾಲಯವನ್ನು ಅವಲಂಬಿಸದೇ ಅದರ ತೀರ್ಪನ್ನೂ ಕೂಡ ತಿರಸ್ಕರಿಸಬಹುದಾಗಿದೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_00378_01481393426 is -8.20131 over 1013 frames.
+knm_00378_02016627830 ಶಾತವಾಹನರ ಕಾಲದಲ್ಲಿ ಐದು ಎಂಬ ಅಂಕಿ ಎರಡು ರೂಪಗಳಲ್ಲಿ ದೊರೆಯುತ್ತವೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_00378_02016627830 is -8.14476 over 621 frames.
+knm_00417_00447310727 ನೇರವಾಗಿ ಮುಂದುವರಿ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_00417_00447310727 is -7.05309 over 587 frames.
+knm_00417_00700549465 ನೀವು ನಿಮ್ಮ ಗಮ್ಯಸ್ಥಾನವನ್ನು ತಲುಪುತ್ತೀರಿ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_00417_00700549465 is -7.59085 over 553 frames.
+knm_00417_00709181952 ವೃತ್ತಾಕಾರದಲ್ಲಿ ರಾಂಪ್‌ನಲ್ಲಿಗೆ ನಿರ್ಗಮಿಸಿ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_00417_00709181952 is -7.62463 over 484 frames.
+knm_00417_01029527050 ಇಳಿಜಾರಿನಲ್ಲಿ ಮುಂದುವರಿಸಿ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_00417_01029527050 is -7.52014 over 339 frames.
+knm_00417_01444549725 ನೇರವಾಗಿ ಮುಂದುವರಿ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_00417_01444549725 is -7.16816 over 331 frames.
+knm_00574_00067666596 ಮುನ್ನೂರು ಅಡಿಗಳಲ್ಲಿ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_00574_00067666596 is -7.69745 over 245 frames.
+knm_00574_01153125164 ನಿಲ್ದಾಣದ ಮೂಲಕ ಮುಕ್ತವಾಗಿ ತೇಲಾಡುತ್ತ ಮಲಗಬಹುದು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_00574_01153125164 is -8.2248 over 459 frames.
+knm_00574_01541345543 ಇದಾದಮೇಲೆ ವಿಯೆನ್ನಾದಲ್ಲಿ ಸಾವಿರದೊಂಬೈನೂರ ಹದಿನಾಲ್ಕರಲ್ಲಿ ಸೇರಿದ ಸಮ್ಮೇಳನದಲ್ಲಿಯೂ ಈ ಪ್ರಶ್ನೆಯ ಚರ್ಚೆಗೆ ಇನ್ನು ಹೆಚ್ಚು ಪ್ರಾಶಸ್ತ್ಯ ದೊರೆಯಿತು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_00574_01541345543 is -8.38558 over 903 frames.
+knm_00574_01758939200 ಮುನ್ನೂರು ಮೀಟರ್‌ಗಳಲ್ಲಿ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_00574_01758939200 is -8.0247 over 237 frames.
+knm_00811_00180081283 ಅದರಲ್ಲೂ ವಿಶೇಷವಾಗಿ ಅವರಿರುವ ಸ್ಥಳದಲ್ಲಿ ಸಂಕೀರ್ಣ ಬಹುದು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_00811_00180081283 is -8.60564 over 595 frames.
+knm_00811_00286463587 ಪ್ರತಿಯನ್ನು ವ್ಯಾಪಾರ ಘಟಕವು ತನ್ನ ದಾಖಲೆಗಳ ಆಧಾರದ ಆನ್ಲೈನ್ ಪ್ರತಿಯನ್ನು ನವೀಕರಿಸಿಕೊಳ್ಳಬಹುದು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_00811_00286463587 is -8.30215 over 809 frames.
+knm_00811_01884768925 ಅಲ್ಲದೇ ಲಾಂಗ್ ಮತ್ತು ಹೈಜಂಪ್ ಕಡೆಗಳಲ್ಲಿ ಎರಡನೆ ಸ್ಥಾನ ಪಡೆದುಕೊಳ್ಳುವ ಮೂಲಕ ಮಹಿಳಾ ಚಾಂಪಿಯನ್ ಅವರು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_00811_01884768925 is -8.83104 over 826 frames.
+knm_01099_01948197248 ಕೇಶವ ದೇವಾಲಯದ ಮೂರ್ತಿ ಒಂದು ಉತ್ತಮ ಗ್ರಹಿಸಲು ಶಿಲ್ಪ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_01099_01948197248 is -8.37208 over 484 frames.
+knm_01114_00206224816 ಮೊದಲನೆಯದಾಗಿ ಹೊರದೇಶದ ಬೇಡಿಕೆಯ ಅಥವಾ ನೀಡಿಕೆಯ ಆಧಾರದ ಮೇಲೆ ಉದ್ದೇಶದ ಉತ್ಪನ್ನ ವ್ಯವಸ್ಥೆಯನ್ನು ರಚಿಸುವಲ್ಲಿ ಒಂದು ದೇಶದ ಉದ್ಯಮಿಗಳು ವಿಶೇಷವಾದ ಹೊಣೆಗಾರಿಕೆ ವಹಿಸಬೇಕಾಗುವುದು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_01114_00206224816 is -8.46407 over 1423 frames.
+knm_01114_01558059071 ಅಂಡಮಾನಿನ ಪುಲಗ ಹಾಗೂ ಪ್ರಾಚೀನ ಭಾರತದ ವರುಣ ಅಂತರಿಕ್ಷದೇವತೆಯ ರೂಪವೆಂದು ತಿಳಿದುಬಂದಿದೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_01114_01558059071 is -8.2687 over 885 frames.
+knm_01114_01733197529 ಇದರೊಂದಿಗೆ ಹೈನುಗಾರಿಕೆಯು ಪ್ರಮುಖ ಉದ್ಯೋಗವಾಗಿದೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_01114_01733197529 is -7.64884 over 604 frames.
+knm_01114_01785099367 ನಿಲ್ದಾಣಕ್ಕೆ ಯಾವುದೇ ನಷ್ಟವಾಗಿಲ್ಲವೆಂದು ತಕ್ಷಣವೇ ವರದಿಮಾಡಲಾಗಿತ್ತು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_01114_01785099367 is -8.12499 over 664 frames.
+knm_01114_01952481449 ಅಂಚೆ ಸೇವೆಯು ಪ್ರತಿಯೊಂದು ಸಂಕೇತಕ್ಕೆ ಸಂಬಂಧಿಸಿದಂತೆ ಒಂದು ಪೂರ್ವನಿಶ್ಚಿತ ಏಕ ಸ್ಥಳನಾಮವನ್ನು ನಿಗದಿಪಡಿಸುತ್ತದೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_01114_01952481449 is -8.50895 over 903 frames.
+knm_01114_02131004156 ವಿಳಂಬಗಳಿಂದಾಗಿ ಎರಡುಸಾವಿರದ ಹನ್ನೊಂದನೇ ವರ್ಷದಲ್ಲಿ ಸಂಪೂರ್ಣಗೊಳ್ಳುವುದೆಂದು ಪುನಃ ಅಂದಾಜುಮಾಡಲಾಯಿತು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_01114_02131004156 is -7.95048 over 1056 frames.
+knm_01402_00421338272 ಸಂಚಿತ ಠೇವಣಿ ಮೊತ್ತ ರೂಪಾಯಿಗಳು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_01402_00421338272 is -8.1341 over 450 frames.
+knm_01672_01257232352 ಹಿಮದ ರೂಪದಲ್ಲಿರುವ ನೀರು ಪ್ರಮುಖವಾಗಿ ಭೂಮಿಯ ಉತ್ತಮ ದೂರದರ್ಶನ ಅವುಗಳಲ್ಲಿ ಕಂಡುಬರುತ್ತದೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_01672_01257232352 is -8.34544 over 740 frames.
+knm_02352_00284551281 ಗಿಡದ ಕಾಂಡವನ್ನು ಕಾಯಂ ಮಾಡಿದಾಗ ಜಿನುಗುವ ಒಂದು ಹೋಗಿ ಗುಂಪಿಗೆ ಸೇದು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_02352_00284551281 is -8.5679 over 638 frames.
+knm_02352_00695383559 ಇದನ್ನು ಮೂಲ ಎಸೆದರು ಎನ್ನುವರು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_02352_00695383559 is -8.58453 over 305 frames.
+knm_02533_01391504435 ನೀವು ತಲುಪಿದ್ದೀರಿ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_02533_01391504435 is -7.21373 over 416 frames.
+knm_02533_01776562000 ಎಡದಲ್ಲಿ ನಿರ್ಗಮಿಸಿ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_02533_01776562000 is -7.29697 over 395 frames.
+knm_02894_00066960331 ಬಾವಿಯಿಂದ ನೀರನ್ನು ಪಂಪು ಮಾಡುವವ ನೀರಿನ ಮಟ್ಟ ಕಡಿಮೆಯಾಗುತ್ತ ಹೋಗುತ್ತದೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_02894_00066960331 is -8.36434 over 629 frames.
+knm_02894_00268521638 ಒಂದು ಕಾಲದಲ್ಲಿ ಈ ದೇವತೆಯ ಒಳಗಾಗಿ ತುಂಬ ಉದಾತ್ತನಾಗಿ ಕಾಣಿಸುತ್ತಾನೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_02894_00268521638 is -8.4443 over 749 frames.
+knm_02894_00579278647 ಅವರು ಪ್ರಕೃತಿಗಿಂತ ಹೆಚ್ಚು ಸ್ವತಂತ್ರರು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_02894_00579278647 is -8.28474 over 484 frames.
+knm_02894_00791849142 ಅಲ್ಲದೆ ಕೆಲವು ವ್ಯವಸ್ಥೆಗಳಲ್ಲಿ ಅಗತ್ಯಕ್ಕಿಂತ ಹೆಚ್ಚು ಕ್ಷೇತ್ರವನ್ನು ಉಂಟು ಮಾಡಿತು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_02894_00791849142 is -8.68757 over 672 frames.
+knm_02894_00839207207 ಅಂತರಿಕ್ಷದೇವತೆಗಳಲ್ಲಿ ರುದ್ರನೂ ಸೇರಿದ್ದಾನೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_02894_00839207207 is -8.01293 over 510 frames.
+knm_02910_00134838960 ಬಾಲಕ ಬಿದ್ದಿದೆ ಬಳಸಲಾಗುತ್ತದೆ ಬಿಗ್ ಡೀಸಲ್ ಜನರೇಟರ್ ಕಂಬೈನ್ಡ್ ಆವರ್ತನ ಶಕ್ತಿ ಸ್ಥಾವರವು ಅಳಿಸಿ ಈ ಎಸ್ ದೊಡ್ಡ ವಿದ್ಯುತ್ ಉತ್ಪಾದಕಗಳ ಕೆಲವು ಶಕ್ತಿ ವಿದ್ಯುತ್ ಗ್ರಿಡ್ ಚಾಲನೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_02910_00134838960 is -8.63969 over 1338 frames.
+knm_02910_00861523707 ಕೇವಲ ರಾಜ್ಯಗಳು ಮಾತ್ರ ಇಂತಹ ಕಲಹಗಳ ಬಗೆಹರಿಸುವ ಪ್ರಕರಣದಲ್ಲಿ ಪಕ್ಷಗಾರರಾಗಿರುತ್ತವೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_02910_00861523707 is -8.3906 over 792 frames.
+knm_02910_01319353513 ಕೆಲವು ಜಾಗಗಳಲ್ಲಂತೂ ಅಲ್ಲಿನ ಸುಣ್ಣಕಲ್ಲುಗಳ ತುಂಬಾ ಇವೆ ತುಂಬಿಕೊಂಡಿವೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_02910_01319353513 is -8.59901 over 570 frames.
+knm_02910_01881379738 ಈ ಈ ಅಂಟು ಪದಾರ್ಥಗಳನ್ನು ದ್ರಾವಣಗಳ ರೂಪದಲ್ಲಿ ಬಳಸುವುದಾದರೆ ದ್ರಾವಕವನ್ನು ಆವಿಯಾಗಿಸಬೇಕು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_02910_01881379738 is -8.53498 over 698 frames.
+knm_03197_00092877894 ಅಂಟು ಚಿತ್ರಣ ಕಲೆ ಎನ್ನುವುದು ಪ್ರಮುಖವಾಗಿ ದೃಗ್ಗೋಚರ ಕಲೆಗಳಲ್ಲಿನ ವ್ಯವಸ್ಥಿತ ಕಲೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_03197_00092877894 is -8.44233 over 757 frames.
+knm_03197_00565590958 ವಿದೇಶಿ ವ್ಯವಹಾರವು ತೀವ್ರ ಪೈಪೋಟಿ ಸೃಷ್ಟಿಸುತ್ತದೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_03197_00565590958 is -8.69037 over 399 frames.
+knm_03197_01853506118 ಅಂಕೋಲ ನಂಬುವುದು ಮಲೆಯಾಳಮ್ ಭಾಷೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_03197_01853506118 is -8.29838 over 416 frames.
+knm_04526_00306702177 ಗಗನಯಾತ್ರೆ ಇಪ್ಪತ್ತರ ಸಿಬ್ಬಂದಿಯನ್ನು ಎರಡು ಪ್ರತ್ಯೇಕ ಸೊಯುಜ್ ವಿಮಾನಗಳ ಮೂಲಕ ನಿಲ್ದಾಣಕ್ಕೆ ಕಳುಹಿಸಲಾಯಿತು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_04526_00306702177 is -8.36262 over 1227 frames.
+knm_04526_01423735476 ಆ ಚಿಕಿತ್ಸೆ ಮಾಡಿದರೆ ತಗ್ಗಿದ ಉಷ್ಣತೆಯ ಪ್ರಭಾವ ತಪ್ಪಿ ಹೋಗುತ್ತದೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_04526_01423735476 is -7.72413 over 775 frames.
+knm_04526_01784604936 ಈ ದೊಡ್ಡ ನಾಡಿಗಳು ಧಮನಿಗಳು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_04526_01784604936 is -7.61259 over 493 frames.
+knm_04689_00182748448 ಎರಡು ಚಿಹ್ನೆಗಳನ್ನು ಕೂಡಿಸಿ ದೊಡ್ಡ ದೊಡ್ಡ ಸಂಖ್ಯೆಗಳನ್ನು ಬರೆಯುತ್ತಿದ್ದರು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_04689_00182748448 is -8.75933 over 544 frames.
+knm_04689_01225384356 ಈ ಅಂಡಾಶಯದಲ್ಲಿ ತರಗತಿ ಬೆಳೆಯುವ ಅಂತ ದಲ್ಲಿ ಅನೇಕ ಜೀವಕಣಗಳು ಗ್ರಾಫಿಯನ್ ಫಾಲಿಕಲ್ ರಚನೆಯಲ್ಲಿ ಪಾಲ್ಗೊಳ್ಳುತ್ತವೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_04689_01225384356 is -8.78525 over 885 frames.
+knm_04689_01301971750 ಮನೋವಿಜ್ಞಾನ ರಂಗದಲ್ಲಿ ಸ್ವರೂಪಾತ್ಮಕ ಸಿದ್ಧಾಂತ ಅ ಎಂಬ ಒಂದು ಪಂಥವನ್ನೇ ಸ್ಥಾಪಿಸಿದ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_04689_01301971750 is -9.04217 over 638 frames.
+knm_04689_01510178774 ಮೊದಲನೆಯ ಮಹಾಯುದ್ಧದ ಅನಂತರ ದ್ವಿತೀಯ ಅಂತಾರಾಷ್ಟ್ರೀಯವು ಪ್ರಪಂಚದ ಶ್ರಮಜೀವಿಗಳ ಮುನ್ನಡೆಗೆ ಕಂಟಕವಾಯಿತಲ್ಲದೆ ಸಮಾಜವಾದದ ಗುರಿಯಿಂದಲೂ ಹಿಮ್ಮೆಟ್ಟಿತು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_04689_01510178774 is -8.70042 over 1278 frames.
+knm_04689_01549231729 ನೀರು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_04689_01549231729 is -7.39623 over 254 frames.
+knm_04689_01551799385 ಇದು ಪ್ರಕರಣಗಳು ಮತ್ತು ಎಲ್ಲಾ ಪಡೆಗಳು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_04689_01551799385 is -8.00241 over 416 frames.
+knm_04689_01975694503 ಪ್ರಕೃತಿಯ ಮಹತ್ಕಾರ್ಯಗಳನ್ನೆಲ್ಲ ಆಕಾಶ ದೇವತೆಗೆ ಹೇಳಿರುವುದರ ಅಕ್ಕ ಸ್ಪಷ್ಟವಾಗುವುದು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_04689_01975694503 is -8.36862 over 809 frames.
+knm_04705_01063045145 ವಿಷಯವನ್ನು ಸಂಗ್ರಹಿಸಿ ಒಂದು ನಕ್ಷೆಯನ್ನು ತಯಾರಿಸಬಹುದು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_04705_01063045145 is -7.79545 over 621 frames.
+knm_04705_01735869449 ಈ ಪನ್ನಾ ಎಂಬ ಜಿಲ್ಲೆಯಲ್ಲಿ ವೈದ್ಯರಲ್ಲಿ ಗಣಿಗಳಿವೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_04705_01735869449 is -7.40524 over 723 frames.
+knm_04992_00776173417 ಟಿ ತ್ಯಾಜ್ಯ ಪ್ರಕಾರ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_04992_00776173417 is -7.49541 over 331 frames.
+knm_04992_00895591669 ವಿಶಿಷ್ಟವೆನಿಸುವಂತೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_04992_00895591669 is -7.44307 over 391 frames.
+knm_04992_01012029824 ಸರ್ಕಾರಿ ಮತ್ತು ಖಾಸಗಿ ಆಸ್ಪತ್ರೆಗಳು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_04992_01012029824 is -7.66638 over 527 frames.
+knm_04992_01376466131 ಮತಚಲಾಯಿಸುವ ಹಕ್ಕು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_04992_01376466131 is -7.62272 over 373 frames.
+knm_04992_01988393458 ತೀರಪ್ರದೇಶ ಹಿತಕರವಾದ ವಾಯುಗುಣವನ್ನು ಒಂದಿಲ್ಲ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_04992_01988393458 is -8.06382 over 501 frames.
+knm_05066_00884053721 ಬೌದ್ಧರ ಪಾಳಿ ತ್ರಿಪಿಟಕಗಳಲ್ಲಿ ಎರಡನೆಯದಾದ ಸುತ್ತಪಿಟಕದಲ್ಲಿ ಸೇರಿರುವ ವೈದ್ಯ ನಿಕಾಯಗಳಲ್ಲಿ ನಾಲ್ಕನೆಯದು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_05066_00884053721 is -8.24374 over 979 frames.
+knm_05066_01394733757 ಅಲ್ಲದೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_05066_01394733757 is -7.20013 over 194 frames.
+knm_05927_01284176879 ಪ್ರಾಣ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_05927_01284176879 is -7.13486 over 263 frames.
+knm_05927_01695983387 ಇಂತಹ ಘಟನೆಗಳಲ್ಲಿ ನಾಗರಿಕರೂ ಭಾಗವಹಿಸುವುದರಿಂದ ಮತ್ತು ಹಿಂಸಾಕೃತ್ಯಗಳು ನಡೆಯುವುದರಿಂದ ಇವಕ್ಕೆ ಅಂತರ್ಯುದ್ಧಗಳೆಂದು ಹೆಸರಾಗಿದೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_05927_01695983387 is -8.4574 over 920 frames.
+knm_05927_01699170109 ಬಾಗಿಲಿಗೆ ಬಂದದ್ದು ತೀರ ಸ್ವಾಗತಿಸಿ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_05927_01699170109 is -7.90956 over 391 frames.
+knm_05927_01879350384 ಗೂಟ ಮತ್ತು ರೆಂಬೆಗಳನ್ನು ತಾಯಿಗಿಡದಿಂದ ಪ್ರತ್ಯೇಕಿಸದೆ ಭೂಮಿಯಲ್ಲಿ ಹೂಳಿ ಹೊಸ ಹೊಸ ಸಸ್ಯಗಳನ್ನೇಳಿಸಬಹುದು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_05927_01879350384 is -8.5864 over 792 frames.
+knm_06230_00046526226 ಅಂಟಿಸುವ ಪದರಗಳನ್ನು ಹೆಚ್ಚು ಒತ್ತಡಕ್ಕೆ ಒಳಪಡಿಸುವುದು ಅವಶ್ಯಕ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_06230_00046526226 is -8.66464 over 536 frames.
+knm_06230_00132339674 ಇದು ಒಂದು ಪೊದೆ ಸಸ್ಯ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_06230_00132339674 is -7.30878 over 561 frames.
+knm_06230_01024713546 ಹಳೆಯ ಎಲೆಗಳು ಉದುರುವುದಕ್ಕಿಂತ ಮುಂಚಿತವಾಗಿಯೇ ಹೊಸ ಚಿಕ್ಕ ಎಸ್ ಕಾಣಿಸಿಕೊಳ್ಳುತ್ತದೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_06230_01024713546 is -8.30545 over 698 frames.
+knm_06230_01354268124 ಆದ್ದರಿಂದಲೇ ಶರೀರಕ್ರಿಯಾವಿಜ್ಞಾನವನ್ನು ನೋಡಬೇಕು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_06230_01354268124 is -8.23197 over 510 frames.
+knm_06230_01433008341 ಆಗ ಮಧ್ಯದಲ್ಲಿ ಸೇರುವ ಉಂಟಾಗುತ್ತದೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_06230_01433008341 is -8.34838 over 254 frames.
+knm_06500_00067582165 ನೀರನ್ನು ಬಾಸೆಲ್ ಎಂಬಲ್ಲಿ ಅಂತರಾಷ್ಟ್ರೀಯ ತೀರುವೆ ಬ್ಯಾಂಕಿಗೆ ಸ್ಥಾಪನೆಯಾಯಿತು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_06500_00067582165 is -8.18666 over 740 frames.
+knm_06681_01385815476 ಹಾರ್ಮೋನ್ ಶತಮಾನದಲ್ಲಿ ಪ್ರವರ್ಧಮಾನಕ್ಕೆ ಬಂತು ಒಂದು ರಾಜ್ಯವಾಗಿತ್ತು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_06681_01385815476 is -7.63949 over 988 frames.
+knm_06681_02093588741 ಅಂತರರಾಷ್ಟ್ರೀಯ ಉಕ್ಕು ಕಾರ್ಟೆಲ್ಲು ಉತ್ಪನ್ನದ ಮೊತ್ತವನ್ನು ಯಶಸ್ವಿಯಾಗಿ ನಿರ್ಬಂಧಿಸಿತ್ತು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_06681_02093588741 is -7.68225 over 1244 frames.
+knm_06788_00979870381 ರಾಕೆಟ್ ವಿಜ್ಞಾನ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_06788_00979870381 is -7.28916 over 433 frames.
+knm_06984_00866400530 ಇವೆ ಅಲ್ಲದೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_06984_00866400530 is -7.81362 over 263 frames.
+knm_06984_01792045590 ಯುರೋಪಿನ ಅನೇಕ ರಾಷ್ಟ್ರಗಳಲ್ಲಿ ಇತರ ಅಂಗಸಂಸ್ಥೆಗಳ ಸಂಖ್ಯೆ ಹೆಚ್ಚಿತು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_06984_01792045590 is -8.54632 over 655 frames.
+knm_07221_00758933658 ಚರಕಸಂಹಿತೆಯಲ್ಲೇ ಈ ವಿಧಾನ ಹೇಳಿಲ್ಲ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_07221_00758933658 is -8.14146 over 391 frames.
+knm_07524_00031785805 ಯಾಕೆಂದರೆ ಅದರ ಬಹು ಶಾಲೆಗಳು ಆಯಾ ರಾಜ್ಯಗಳು ಸ್ವಯಂ ಪ್ರೇರಣೆಯಿಂದ ಒಪ್ಪಲ್ಪಡುತ್ತವೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_07524_00031785805 is -8.03715 over 894 frames.
+knm_07524_00050245068 ಧಾರ್ಮಿಕ ಚಿತ್ರಗಳು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_07524_00050245068 is -7.39014 over 450 frames.
+knm_07524_00318896617 ಮಲಗಿದವರು ಕೊರತೆ ಶಬ್ದ ಮಾಡುವಾಗ ಕಿರುನಾಲಿಗೆ ಕಂಪಿಸುತ್ತದೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_07524_00318896617 is -8.12903 over 612 frames.
+knm_07524_01722219606 ಈ ಒಂದೊಂದು ದೇವತೆಯೂ ಪರತತ್ತ್ವ ಸ್ವರೂಪವೆಂದು ಪ್ರತಿಪಾದಿಸಿರುವುದು ವೈದಿಕ ಧರ್ಮದ ವೈಶಿಷ್ಟ್ಯ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_07524_01722219606 is -8.40934 over 843 frames.
+knm_07722_00794558679 ಅನೇಕ ಸಂದರ್ಭಗಳು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_07722_00794558679 is -8.04568 over 408 frames.
+knm_07918_00101024522 ಅಂಟು ಚಿತ್ರಣವು ಈ ಇನ್ನು ಗುರುತಿಸಲು ಪ್ರೋಗ್ರಾಂ ವೇದಗಳ ಮೊಟ್ಟೆಯ ಕಲೆಹಾಕಲಾಗುವುದು 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_07918_00101024522 is -8.79344 over 536 frames.
+knm_07918_00344390763 ಈ ಅನೇಕ ಸ್ಟೇಷನರಿ ಬಳಕೆಗಳಿಗಾಗಿ ಇವೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_07918_00344390763 is -8.08638 over 416 frames.
+knm_08025_01005211078 ತೀರ ಸಾಮಾನ್ಯ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_08025_01005211078 is -7.46535 over 280 frames.
+knm_08025_01815510700 ತೊಡೆಸಂದಿಯ ಅಂಡವಾಯುಗಳು ಪುರುಷರ ಮತ್ತು ಮಹಿಳೆಯರಲ್ಲಿನ ಅಂಡವಾಯುವಿನ ಪೈಕಿ ಅತಿಸಾಮಾನ್ಯವಾದ ಬಗೆಯಾಗಿದೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_08025_01815510700 is -8.28756 over 894 frames.
+knm_09140_00720736851 ನಿಲ್ದಾಣದ ಹತ್ತಿರವಿರುವ ತೂಕರಹಿತ ಪರಿಸರ ನಿರ್ಮಾಣವಾಗುತ್ತದೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_09140_00720736851 is -8.14969 over 595 frames.
+knm_09140_01245552601 ಅಗತ್ಯವಿದೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_09140_01245552601 is -7.19999 over 237 frames.
+knm_09140_01249646213 ಈ ಕೊಲಂಬಿಯ ಅಪಘಾತ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_09140_01249646213 is -7.8075 over 280 frames.
+LOG (apply-cmvn[5.5.891~1-37628]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 200 utterances, errors on 0
+knm_09877_01386053555 ನಮ್ಮಲ್ಲಿ ಒಣಗಿಸಿ ಮಾರಾಟಕ್ಕೆ ಕಳುಹಿಸುವುದು ಕಡಿಮೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_09877_01386053555 is -7.89314 over 433 frames.
+knm_09877_01488515142 ಕೇಸಿಯಿನ್ ಅಂಟು ಸರಂಧ್ರವಸ್ತುಗಳನ್ನು ಅಂಟಿಸುವುದಕ್ಕೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_09877_01488515142 is -7.96372 over 450 frames.
+knm_09877_01579354608 ಹುಡುಕಾಟದ ಪರ್ವತ ಅಂಶಗಳನ್ನು ಸಾಮಾನ್ಯವಾಗಿ ಒಂದು ಪಟ್ಟಿಯ ರೂಪದಲ್ಲಿ ಪ್ರಸ್ತುತಪಡಿಸಲಾಗುತ್ತದೆ ಮತ್ತು ಇವನ್ನು ಹಿಟ್ಸ್ ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ 
+LOG (gmm-latgen-faster[5.5.891~1-37628]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance knm_09877_01579354608 is -8.30886 over 979 frames.
+LOG (gmm-latgen-faster[5.5.891~1-37628]:main():gmm-latgen-faster.cc:176) Time taken 86.8787s: real-time factor assuming 100 frames/sec is 0.0637478
+LOG (gmm-latgen-faster[5.5.891~1-37628]:main():gmm-latgen-faster.cc:179) Done 200 utterances, failed for 0
+LOG (gmm-latgen-faster[5.5.891~1-37628]:main():gmm-latgen-faster.cc:181) Overall log-likelihood per frame is -8.33979 over 136285 frames.
+# Accounting: time=87 threads=1
+# Ended (code 0) at Sat Apr  3 02:14:25 IST 2021, elapsed time 87 seconds
