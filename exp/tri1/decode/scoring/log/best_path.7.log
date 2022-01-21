@@ -1,0 +1,408 @@
+# lattice-best-path --lm-scale=7 --word-symbol-table=exp/tri1/graph/words.txt "ark:gunzip -c exp/tri1/decode/lat.*.gz|" ark,t:exp/tri1/decode/scoring/7.tra 
+# Started at Sat Apr  3 02:14:26 IST 2021
+#
+lattice-best-path --lm-scale=7 --word-symbol-table=exp/tri1/graph/words.txt 'ark:gunzip -c exp/tri1/decode/lat.*.gz|' ark,t:exp/tri1/decode/scoring/7.tra 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_00001_00413020320, best cost 528.862 + 47860.1 = 48389 over 501 frames.
+knf_00001_00413020320 ಈ ಶಾಖೆಯ ಕಾಯಿದೆ ಹೆಸರಿಗೆ ಕಾಯಿದೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_00001_00977247973, best cost 562.862 + 73823.1 = 74386 over 792 frames.
+knf_00001_00977247973 ರಾಷ್ಟ್ರೀಯ ಹಾಗು ಅಂತಾರಾಷ್ಟ್ರೀಯ ನಿಯತಕಾಲಿಕಗಳು ಸಿಗುತ್ತವೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_00001_01200920211, best cost 493.86 + 51625.3 = 52119.2 over 544 frames.
+knf_00001_01200920211 ಅಂತಾರಾಷ್ಟ್ರೀಯ ಕಾರ್ಟೆಲ್ಲುಗಳಲ್ಲಿ ಎರಡು ವಿದಾಯ ಈ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_00001_01610070590, best cost 666.234 + 76872.6 = 77538.9 over 826 frames.
+knf_00001_01610070590 ಒಂದು ಸಾರ್ತಿ ಈ ಪಾರ್ಶ್ವಚಿತ್ರ ನಿರ್ಧಾರಣಾ ವಾದ ನಂತರ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_00001_01623910163, best cost 1181.62 + 92840.3 = 94022 over 945 frames.
+knf_00001_01623910163 ಸರಣಿಯನ್ನು ಸಾಗಿಸುವ ಅಮೂರ್ತ ರಲ್ಲಿ ವಿಪರೀತ ಕಂಪನ ಮತ್ತು ಹಳೆ ಕರೆಂಟ್ ಸ್ಟೇಟ್ ಗಳು ಕಾಣಿಸಿಕೊಂಡವು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_00001_01676291107, best cost 444.938 + 67260.3 = 67705.3 over 689 frames.
+knf_00001_01676291107 ಅದರಿಂದಲೇ ಶರೀರಕ್ರಿಯಾವಿಜ್ಞಾನವನ್ನು ನೋಡಬೇಕು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_00254_00142887464, best cost 1776.82 + 121840 = 123616 over 1124 frames.
+knf_00254_00142887464 ನೈಟ್ರೊಜನ್ ಮೇ ನ ಕೊರತೆಯ ತೀವ್ರತೆಯನ್ನು ಕಂಡುಕೊಳ್ಳಬೇಕಾದರೆ ಅದರ ಅಂಶ ಅ ಸಸ್ಯಾಂಗದ ಯಾವ ಭಾಗದಲ್ಲಿ ಪ್ರಪ್ರಥಮ ಆ ಕಡಿಮೆಯಾಗಿರುತ್ತದೆ ಯು ಅಲ್ಲಿ ಪರೀಕ್ಷೆ ಮಾಡಬೇಕು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_00254_00386694014, best cost 1260.41 + 96019.5 = 97279.9 over 885 frames.
+knf_00254_00386694014 ಅಲ್ಲದೆ ಗ್ರೀಕ್ ಸ್ಥಳ ಹೊರಾಂಗಣದ ಮೇಲಿರುವ ಆಂಟೆನಗಳ ಮೂಲಕ ಅರ್ಥವೂ ನಿಯಂತ್ರಣಾ ಕಕ್ಷಾ ಸಂಪರ್ಕ ಕೇಂದ್ರಗಳಿಗೆ ಕಳಿಸಲಾಗುತ್ತಿದೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_00254_00422041099, best cost 1113.5 + 81200.7 = 82314.2 over 757 frames.
+knf_00254_00422041099 ಈ ವಲಯದ ಮೂಲಕವೇ ನೆಲದಮೇಲೆ ಬಿತ್ತನೆ ಇರುವ ನಿಧಾನ ಗತಿಯಲ್ಲಿ ಜಿನುಗಿ ಅಂತರ್ಜಲ ಭಂಡಾರವಾಗುತ್ತದೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_00254_00567573707, best cost 391.241 + 27945.7 = 28336.9 over 280 frames.
+knf_00254_00567573707 ಇದರ ಸ್ಥಾಪಕ ವಿಲ್ಹೆಮ್ ಉಂಟು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_00254_00872855172, best cost 162.147 + 17722.7 = 17884.9 over 203 frames.
+knf_00254_00872855172 ರೈಲ್ವೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_00254_01109646751, best cost 1454.7 + 116345 = 117800 over 1065 frames.
+knf_00254_01109646751 ಈ ಸಂಸ್ಥೆ ತನ್ನ ಬಂಡವಾಳ ವಿನಿಯೋಗದ ಜೊತೆಗೆ ದೇಶದ ಆರ್ಥಿಕ ಬೆಳವಣಿಗೆಗೆ ಅಗತ್ಯವಾದ ಎಲ್ಲ ಅಂಶಗಳನ್ನು ಏರ್ಪಾಟುಗಳನ್ನೂ ವಿಮರ್ಶೆಮಾಡುವ ಹೊಣೆಗಾರಿಕೆಯನ್ನು ಹೊತ್ತಿದೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_00254_01445391292, best cost 592.847 + 41544 = 42136.8 over 399 frames.
+knf_00254_01445391292 ಅಲ್ಲದೇ ಅವುಗಳನ್ನು ಅಲ್ಲಿನ ಅಡುಗೆ ಮನೆಯಲ್ಲಿ ಬೇಯಿಸುತ್ತಾರೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_00254_01541969378, best cost 1011.91 + 104085 = 105097 over 1005 frames.
+knf_00254_01541969378 ಸರ್ಕಾರದ ಖಜಾನೆಯ ಅ ಇಷ್ಟಾನುಸಾರವಾಗಿ ಎಚ್ಚರ ವ್ಯಾಪಕವಾದ ಬಹಿರಂಗಪಡಿಸುವಿಕೆಯ ಅವಶ್ಯಕತೆಯು ಕಂಡುಬರಬಹುದು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_00254_01647525555, best cost 644.445 + 35836.4 = 36480.8 over 339 frames.
+knf_00254_01647525555 ಭದ್ರ ಡ್ಯಾಂ ಎಂಬುದು ಒಂದು ಪ್ರವಾಸ ಇ ಕೇಂದ್ರವಾಗಿದೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_00254_01705277091, best cost 829.143 + 84836.9 = 85666 over 834 frames.
+knf_00254_01705277091 ವ್ಯವಸ್ಥಾಪಕ ನಿರ್ದೇಶಕರನ್ನು ನಿರ್ಧರಿಸುವ ಕಾರ್ಯನಿರ್ವಾಹಕ ನಿರ್ದೇಶಕರನ್ನು ಆಳಕ್ಕೆ ಮಾಡಲಾಗುತ್ತದೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_00557_00470699635, best cost 455.565 + 50620.3 = 51075.9 over 510 frames.
+knf_00557_00470699635 ಅಂಗುತ್ತರವೆಂದರೆ ಇನ್ನೊಂದು ಅಂಗವೆಂದರ್ಥ ಆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_00557_00693422845, best cost 742.286 + 68612.7 = 69355 over 706 frames.
+knf_00557_00693422845 ಇಂದ್ರನಂತೆ ನೂರಾರು ಕುದುರೆಗಳು ಹೂಡಿದ ರಥದಲ್ಲಿ ಸಂಚರಿಸುವವನು ಅ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_00557_01097230618, best cost 547.622 + 50121.9 = 50669.5 over 501 frames.
+knf_00557_01097230618 ಪರ್ವತಗಳು ವಾಯುವೂ ಅನುಗುಣವಾಗಿದೆ ಕಂಪಿಸುವುವು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_00557_01128272548, best cost 281.61 + 29005.8 = 29287.4 over 314 frames.
+knf_00557_01128272548 ಸರ್ಪವೇದ ಅ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_00557_01945435360, best cost 481.416 + 46682.1 = 47163.5 over 442 frames.
+knf_00557_01945435360 ಹೂಗೊಂಚಲಿನಲ್ಲಿ ಹಣ್ಣು ಅವುಗಳು ಮಾತ್ರವಿದೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_01493_00404659685, best cost 1158.46 + 108599 = 109757 over 1090 frames.
+knf_01493_00404659685 ಈ ವಿದ್ಯುನ್ಮಂಡಲದಲ್ಲಿ ವಿದ್ಯುತ್ತಿನಿಂದ ವಿದ್ಯುತ್ ಪೂರಣವಾದ ಅಣುವಿನ ಸ್ಥಾಯೀ ಈ ವಿದ್ಯುತ್ತಿನ ಅಂತಸ್ಥ ಶಕ್ತಿಯಾಗಿದೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_01493_00497544022, best cost 685.829 + 65282.1 = 65967.9 over 664 frames.
+knf_01493_00497544022 ಈ ತತ್ವವನ್ನು ಭಾರತದಲ್ಲಿ ವ್ಯವಸಾಯ ಕ್ಷೇತ್ರದಲ್ಲಿ ಬಹಳವಾಗಿ ಉಪಯೋಗಿಸುತ್ತಾರೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_01493_01634609182, best cost 696.61 + 58707.2 = 59403.8 over 587 frames.
+knf_01493_01634609182 ಇದು ನಿಲ್ದಾಣ ಗಾಜು ನಾನಾ ಯೋಜನೆಗಳಿಗೆ ತಾತ್ಕಾಲಿಕ ತಡೆಯೊಡ್ಡಿತು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_01493_01656566847, best cost 683.533 + 54442.9 = 55126.4 over 544 frames.
+knf_01493_01656566847 ಹತ್ತಿಯನ್ನು ಬೆಳೆದು ಎಲ್ಲವನ್ನೂ ಹೊರದೇಶಗಳಿಗೆ ರಫ್ತು ಮಾಡುತ್ತಾರೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_01493_01861639807, best cost 986.315 + 75557.8 = 76544.2 over 749 frames.
+knf_01493_01861639807 ಹಸುಗೂಸಿನಲ್ಲಿ ಕಾಣಬರುವ ರಕ್ತ ಕೊರತೆ ಬಹುಮಟ್ಟಿನ ಕಾರಣ ಇರುವುದೇ ಜನ ತಂದೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_01493_01995951894, best cost 1079.94 + 97056.6 = 98136.5 over 988 frames.
+knf_01493_01995951894 ಜಗತ್ಕಾರಣವಾದ ಪರತತ್ತ್ವವೇ ಹೀಗೆ ಬೇರೆ ಬೇರೆ ರೂಪಗಳಲ್ಲಿ ನಮ್ಮನ್ನು ಕೈಹಿಡಿದು ನಡೆಸುತ್ತದೆ ಎಂದು ವರ್ಣಿಸಿದ್ದಾರೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_01779_01043659655, best cost 897.633 + 79228.7 = 80126.3 over 792 frames.
+knf_01779_01043659655 ಅಂಜದೀವ್ನ ಬಳಿ ಭಾರತದ ಜಲನೌಕೆಗಳು ಮೊದಲಾದ ಪೋರ್ಚುಗೀಸ್ ಪಡೆಗಳು ಶರಣಾಗತವಾದವು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_01779_01102803566, best cost 430.35 + 49526.6 = 49956.9 over 527 frames.
+knf_01779_01102803566 ಮೊದಲು ಇದು ಪೋರ್ಚುಗೀಸರ ಸ್ವಾಧೀನದಲ್ಲಿತ್ತು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_01779_01391037344, best cost 858.016 + 76661.2 = 77519.2 over 766 frames.
+knf_01779_01391037344 ಉದಾಹರಣೆಗೆ ಎರಡು ತಂಡಗಳು ಪರಸ್ಪರ ಎದುರುಬದರಾಗಿ ಸಂಧಿಸಿ ಮಂದವಾದ ಭಾರತವೂ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_01779_02024713720, best cost 665.901 + 66367.3 = 67033.2 over 681 frames.
+knf_01779_02024713720 ಅಂತರ್ಜಾಲ ಸೌಲಭ್ಯ ಇಲ್ಲದವರಿಗೆ ಅಂತಾರಾಷ್ಟ್ರೀಯ ಧನಾದೇಶ ಸ್ವೀಕೃತಿ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_01796_00681401725, best cost 843.396 + 67956.6 = 68800 over 664 frames.
+knf_01796_00681401725 ಆದರು ಕೂಡಾ ಈ ಅಂದಾಜನ್ನು ಅಪೋಲೋ ಪ್ರೋಗ್ರಾಂನ ಕಾಗದದ ಮೇಲೆ ಮಾಡಲಾಗಿದ್ದು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_01796_00821693610, best cost 1121.58 + 100282 = 101403 over 1031 frames.
+knf_01796_00821693610 ಆಲದ ಇಂತಹ ಶಿಲೆಗಳಲ್ಲಿ ಹೆಚ್ಚಿನ ವೇಳೆ ಬಿರುಕುಗಳಿರುವುದರಿಂದ ಇವುಗಳ ಮೂಲಕ ನೀರು ನೆಲದಾಳಕ್ಕೆ ಇಳಿಯುತ್ತದೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_01796_01050913875, best cost 2133.68 + 193153 = 195287 over 1918 frames.
+knf_01796_01050913875 ಸಮಯಸಾಧಕ ಮುಂದಾಳುಗಳು ಈ ಅಂತಾರಾಷ್ಟ್ರೀಯದ ಕಡೆಯ ವರ್ಷಗಳಲ್ಲಿ ಸಮಾಜವಾದಿ ತತ್ವವನ್ನು ಕೈಬಿಟ್ಟು ಗುಜರಾತ್ ಸುಧಾರಣಾ ನೀತಿಗೆ ಮಾರುಹೋಗಿ ಅದರ ಕ್ರಾಂತಿಕಾರಿ ನೀತಿಯನ್ನು ಮಟ್ಟಕ್ಕು ಅ ಮಾಡಿದರು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_02049_00114697512, best cost 1409.75 + 130794 = 132204 over 1210 frames.
+knf_02049_00114697512 ಅಲ್ಲದೇ ಒಂದು ಗಗನಯಾತ್ರೆಯ ಕಮಾಂಡರ್ ಮತ್ತು ಗಗನಯಾತ್ರೆಯ ಕಮಾಂಡರ್ ಗೆ ನಿಲ್ದಾಣವನ್ನು ಅಧಿಕೃತವಾಗಿ ಒಪ್ಪಿಸಿದ ನಂತರದ ಗಗನಯಾತ್ರೆಯನ್ನು ಪ್ರಾರಂಭಿಸಲಾಗುತ್ತದೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_02049_00235999111, best cost 433.021 + 36009.2 = 36442.2 over 356 frames.
+knf_02049_00235999111 ಇದರ ರಾಜ ವಿಶ್ವದಷ್ಟು ವಿಸ್ತಾರ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_02049_01735356079, best cost 490.992 + 59903 = 60393.9 over 587 frames.
+knf_02049_01735356079 ಇದರಿಂದಾಗಿ ದ್ವಿತೀಯ ಅಂತಾರಾಷ್ಟ್ರೀಯ ಅವಸಾನಗೊಂಡಿತು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_02049_01784472631, best cost 769.002 + 77859.4 = 78628.4 over 732 frames.
+knf_02049_01784472631 ವೈಜ್ಞಾನಿಕವಾಗಿ ಪೂರಕ ಪ್ರದೇಶದಿಂದ ವಿಸರ್ಜಕ ಪ್ರದೇಶಗಳೆಡೆಗೆ ಹರಿಯುತ್ತದೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_02049_01955479682, best cost 964.049 + 77238.1 = 78202.1 over 715 frames.
+knf_02049_01955479682 ಹಗಲಿನ ಶಸ್ತ್ರಚಿಕಿತ್ಸಾ ಕೇಂದ್ರಗಳ ಮೂಲಕ ಅನೇಕ ರೋಗಿಗಳ ಅಫ್ ನಿಗಾವಣೆ ನಡೆಯುತ್ತಿದ್ದು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_02049_02025772085, best cost 680.253 + 70699.6 = 71379.9 over 664 frames.
+knf_02049_02025772085 ಇವುಗಳನ್ನು ಮೂಲವಾಗಿಟ್ಟುಕೊಂಡು ಎಲ್ಲ ಜಟಿಲವಾದ ಸಮಸ್ಯೆಗಳನ್ನು ಬಗೆಹರಿಸಬಹುದು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_02173_00088208001, best cost 244.332 + 24777.8 = 25022.1 over 271 frames.
+knf_02173_00088208001 ಎಂಟ್ನೂರು ಮೀಟರ್‌ಗಳಲ್ಲಿ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_02173_00798528092, best cost 303.532 + 23767 = 24070.5 over 245 frames.
+knf_02173_00798528092 ರಾಂಪ್‌ನಲ್ಲಿ ಬಲಕ್ಕೆ ತಿರುಗಿ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_02173_02031667415, best cost 240.382 + 25319.8 = 25560.1 over 280 frames.
+knf_02173_02031667415 ನಾಲ್ನೂರು ಗಜಗಳಲ್ಲಿ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_03271_00149014152, best cost 866.016 + 67934.8 = 68800.8 over 681 frames.
+knf_03271_00149014152 ಫ್ರೆಂಚ್ ಮತ್ತು ಜರ್ಮನ್ ಮಾರ್ಕ್ಸ್ ವಾದಿಗಳು ಇದರ ಸ್ಥಾಪನೆಯ ಕಾಲದಲ್ಲಿ ಪ್ರಭಾವಶಾಲಿಗಳಾಗಿದ್ದರು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_03271_01280046274, best cost 641.026 + 53696.7 = 54337.7 over 527 frames.
+knf_03271_01280046274 ಮಣ್ಣು ಹಾಗು ಸಂಪುಟದ ನಡುವಿನ ಜಾಗವನ್ನು ಒತ್ತಡಕ್ಕೊಳಪಡಿಸಿರುತ್ತಾರೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_03271_01629528503, best cost 915.79 + 63344.3 = 64260.1 over 612 frames.
+knf_03271_01629528503 ಚಿತ್ರವನ್ನು ಕೆಲವೊಮ್ಮೆ ವಾರ್ನಿಷ್ ಅಥವಾ ಕೆಲವು ಇತರ ಮುದ್ರಕಗಳನ್ನು ರಕ್ಷಣೆಯಾಗಿ ಲೇಪನ ಮಾಡಲಾಗುತ್ತದೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_03271_02015774897, best cost 1357.83 + 100641 = 101999 over 979 frames.
+knf_03271_02015774897 ಸಸ್ಯದಲ್ಲಿ ತಗ್ಗಿದ ಉಷ್ಣತೆ ಚಿಕಿತ್ಸೆ ಹೆಚ್ಚಾದಂತೆ ಬಿತ್ತನೆ ಮಾಡುವುದಕ್ಕೂ ಮತ್ತು ಕೊಯಿಲು ಮಾಡುವುದಕ್ಕೂ ಮತ್ತೆ ಇರುವ ಕಾಲವು ಕಡಿಮೆಯಾಗುತ್ತದೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_03271_02018138424, best cost 1008.53 + 82532.6 = 83541.1 over 800 frames.
+knf_03271_02018138424 ರಂದ್ರಯುಕ್ತಿಗಳ ಕ್ರಿಯಾತ್ಮಕ ಗುಂಪು ನಿರ್ದಿಷ್ಟ ಅಂಗಾಂಶಗಳಿಗೆ ಚಿಕ್ಕ ಅಣುಗಳ ಸಾಗಾಣಿಕೆಯಲ್ಲಿ ಉಪಯೋಗವಾಗಬಹುದು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_03467_00276108653, best cost 563.312 + 50521.6 = 51084.9 over 519 frames.
+knf_03467_00276108653 ಪೂರ್ವದ ಮತ್ತು ಪಶ್ಚಿಮ ಭಾಗಗಳ ನಡುವಿನ ಪ್ರಸ್ಥಭೂಮಿ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_03467_00296369160, best cost 580.662 + 72810.6 = 73391.3 over 809 frames.
+knf_03467_00296369160 ಪ್ರಕೃತಿಯ ರೌದ್ರ ಸ್ವರೂಪವನ್ನು ಇವನು ಪ್ರತಿನಿಧಿಸುತ್ತಾನೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_03467_00425446801, best cost 546.04 + 63536.3 = 64082.4 over 664 frames.
+knf_03467_00425446801 ಅಂತಾರಾಷ್ಟ್ರೀಯ ವ್ಯವಹಾರವು ಅಂತರಾಷ್ಟ್ರೀಯ ವ್ಯಾಪಾರಕ್ಕಿಂತ ವಿಶಾಲವಾಗಿದೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_03467_00623433865, best cost 1645.42 + 166841 = 168486 over 1696 frames.
+knf_03467_00623433865 ಅಂತರ್ಜಾಲಗಳು ಬಳಕೆದಾರನ ನಿರ್ದಿಷ್ಟ ಒ ಉದ್ದೇಶದ ಮೇಲೆ ಅವಲಂಬಿತವಾಗಿರುವುದರಿಂದ ನಿಯೋಗವು ಯಾರೊಂದಿಗೆ ಮುಖಾಮುಖಿ ಮಾಡುತ್ತಿರುವಿರೆಂದು ನಿಮಗೆ ನಿರ್ದಿಷ್ಟವಾಗಿ ತಿಳಿದಿರುತ್ತದೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_03467_01959641002, best cost 1234.06 + 110117 = 111351 over 1133 frames.
+knf_03467_01959641002 ಸರ್ಕಾರಿ ಕ್ಷೇತ್ರಕ್ಕೆ ಸೇರಿದ ಉದ್ಯಮಗಳಿಗೆ ಅಥವಾ ವಿಶೇಷವಾಗಿ ಸರ್ಕಾರಿ ಪ್ರಭಾವಕ್ಕೆ ಒಳಪಟ್ಟಿರುವ ಸಂಸ್ಥೆಗಳಿಗೆ ನೆರವು ಸಿಗುವುದಿಲ್ಲ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_03574_00145342156, best cost 794.225 + 50234.1 = 51028.3 over 501 frames.
+knf_03574_00145342156 ಹಚ್ಚುವ ಮೊದಲು ಲೋಕಗಳ ಮೈಯನ್ನು ಉಜ್ಜಿ ಒರಟು ಮಾಡುವುದು ಒಳ್ಳೆಯದು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_03574_00156386493, best cost 537.368 + 45453.5 = 45990.9 over 467 frames.
+knf_03574_00156386493 ಒಂದನೆಯ ಮಹಾಯುದ್ಧಕ್ಕೂ ಇದೇ ಮೂಲವೆನ್ನುವವರೂ ಇದ್ದಾರೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_03574_00338085389, best cost 1335.9 + 106325 = 107661 over 1065 frames.
+knf_03574_00338085389 ಅಂತರ್ಜಾಲದ ಬಳಕೆ ಮತ್ತು ಹೊಸ ಆ ತಂತ್ರಜ್ಞಾನಗಳು ಕಾಲಾನುಕ್ರಮದಲ್ಲಿ ವಿಕಸಿತವಾಗುತ್ತ ಆ ಹೋದಂತೆ ಈ ವಿಧಾನಗಳೂ ಕೂಡಾ ಬದಲಾಗುತ್ತಿವೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_03574_01609069976, best cost 572.345 + 42883.2 = 43455.6 over 442 frames.
+knf_03574_01609069976 ಅಲ್ಲದೆ ಅದಕ್ಕೆ ಅಗತ್ಯ ತರಬೇತಿ ವ್ಯವಸ್ಥೆ ಮಾಡಿದರು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_03755_00398180127, best cost 858.201 + 74363.1 = 75221.3 over 766 frames.
+knf_03755_00398180127 ಹಗಲಿನ ವೇಳೆಯಲ್ಲಿನ ಭೂಮಿಯ ಮೇಲೆ ಬೆಳಕಿರುವ ಭಾಗದಲ್ಲಿ ಬ್ಯಾಟರಿಗಳನ್ನು ಪುನರಾವೇಶಿಸಲಾಗುತ್ತದೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_03755_00400685745, best cost 321.122 + 35886.1 = 36207.2 over 382 frames.
+knf_03755_00400685745 ಈ ನಿದರ್ಶನದಲ್ಲಿ ಮಾಡಬಹುದಾಗಿದೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_03755_00509615417, best cost 522.617 + 44558.9 = 45081.5 over 476 frames.
+knf_03755_00509615417 ಇಂತಹ ಹಂಚಿಕೆಯನ್ನು ಹಲವಾರು ವಿಧಾನಗಳಲ್ಲಿ ಮಾಡಬಹುದು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_03755_01420581943, best cost 1072.16 + 87048.9 = 88121 over 877 frames.
+knf_03755_01420581943 ಆದರೂ ಅಂತಹ ತುಣುಕುಗಳು ಸ್ವತಃ ತಮ್ಮನ್ನು ಬೃಹತ್ ಗೋಡೆಗಳು ಅಥವಾ ಏಕಶಿಲೆಗಳಾಗಿ ಪ್ರಸ್ತುತಪಡಿಸುತ್ತದೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_03755_01455637299, best cost 1325.26 + 88824.4 = 90149.6 over 877 frames.
+knf_03755_01455637299 ಏಕೆಂದರೆ ಅವರು ಉಸಿರಿನ ಮೂಲಕ ಹೊರಹಾಕಿದ ಇಂಗಾಲದ ಡೆ ಆಕ್ಸೈಡ್ ನ ಗುಳ್ಳೆಗಳು ಅವರ ತಲೆಯ ಸುತ್ತಲೇ ಉಳಿದುಕೊಳ್ಳುತ್ತವೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_03844_01662506119, best cost 904.607 + 81645.2 = 82549.8 over 792 frames.
+knf_03844_01662506119 ಈ ಈ ತಿನ್ನಲು ಪ್ರಾರಂಭಕ್ಕೆ ಅನೇಕ ವಿಶ್ವ ನಾಯಕರಿಂದ ಸಹಕಾರ ಮುದ್ರಿತ ಇದೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_03844_01783103658, best cost 1538.11 + 109737 = 111275 over 1073 frames.
+knf_03844_01783103658 ಈ ಈ ಪದ್ದತಿಯಲ್ಲಿ ವ್ಯಾಜ್ಯದವರು ಕೀವು ಅಂಕಿ ಬೇಕಾಗುವ ಉದ್ಯಮ ವನ್ನು ದೀಪ್ ಇನ್ನು ನಾವು ಸೂತ್ರ ಎ ಅವು ಉಕ್ಕಬಹುದು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_05550_00445854911, best cost 710.699 + 65653.9 = 66364.6 over 621 frames.
+knf_05550_00445854911 ಮಾರುಕಟ್ಟೆ ವಿಸ್ತರಣೆ ಈ ವ್ಯವಹಾರವು ಮಾರುಕಟ್ಟೆಗಳನ್ನು ವಿಸ್ತರಿಸುತ್ತದೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_05550_00658415434, best cost 1221.19 + 105968 = 107189 over 954 frames.
+knf_05550_00658415434 ನೀರಿನ ಆವಿಯಿದ್ದರೆ ತನ್ನ ದೃಢತೆಯನ್ನು ಕಳೆದುಕೊಳ್ಳುವುದರಿಂದ ಅವುಗಳ ಆ ಉಪಯೋಗ ಕಾಗದಗಳನ್ನು ಅಂಟಿಸಲು ಮಾತ್ರ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_05550_00806051978, best cost 443.977 + 37667.2 = 38111.1 over 365 frames.
+knf_05550_00806051978 ಅಂತರಾಷ್ಟ್ರೀಯ ಅಭಿವೃದ್ಧಿ ಸಂಸ್ಥೆ ಎ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_05550_01010202503, best cost 590.81 + 57196.8 = 57787.6 over 527 frames.
+knf_05550_01010202503 ಅಂತರಿಕ್ಷಯಾನ ಇಂಜಿನಿಯರುಗಳು ನಾಗರಿಕ ಅಭಿಮಾನ ನೋದನ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_05550_01207101906, best cost 1127.25 + 87708.5 = 88835.8 over 800 frames.
+knf_05550_01207101906 ಅಮೃತಮಂಥನದಲ್ಲಿ ನೋದನ ಮಂತ್ರಿ ಹುಟ್ಟಿ ನೋಡಲು ಕಥೆ ಅಮೃತವನ್ನು ತಂದನೆಂದು ಮಹಾಭಾರತದಲ್ಲಿ ಹೇಳಿದೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_05550_01969100159, best cost 559.241 + 44306 = 44865.2 over 416 frames.
+knf_05550_01969100159 ಅಂದರೆ ಇಪ್ಪತ್ತಕ್ಕೆ ಹತ್ತರ ಎರಡು ಚಿಹ್ನೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_05550_02041579028, best cost 899.126 + 73984.1 = 74883.2 over 689 frames.
+knf_05550_02041579028 ಅಂತರಿಕ್ಷದೇವತೆಗಳಲ್ಲೆಲ್ಲ ಓಜಸ್ಸು ಉಳ್ಳ ವನ್ನು ಬಲಿಷ್ಠನೂ ಆದವನು ಇಂದ್ರ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_05820_00196944896, best cost 350.798 + 31995.7 = 32346.5 over 339 frames.
+knf_05820_00196944896 ಅದು ಒಂದು ಬಗೆಯ ಸ್ಪಷ್ಟವಾದ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_05820_00284655247, best cost 496.068 + 46421.2 = 46917.2 over 467 frames.
+knf_05820_00284655247 ಶಸ್ತ್ರವೈದ್ಯವನ್ನು ಮಾಡುತ್ತಿದ್ದವರು ಕಿರು ಜಾತಿಯವರಾದರು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_05820_00760499597, best cost 158.955 + 20054.2 = 20213.2 over 220 frames.
+knf_05820_00760499597 ಕೂಡಿಸು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_05820_01182827519, best cost 517.088 + 53351.3 = 53868.3 over 553 frames.
+knf_05820_01182827519 ಸ್ವೀಕರಣಾ ವಿಭಾಗವು ಅಸ್ತವ್ಯಸ್ತಗೊಂಡಿರಬಹುದಾದ ಸಾಧ್ಯತೆಗಳಿವೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_05820_01696911060, best cost 716.746 + 60420.5 = 61137.2 over 612 frames.
+knf_05820_01696911060 ಈ ಚಿಕಿತ್ಸೆಯನ್ನು ಬೇರೆಬೇರೆ ಸಸ್ಯಗಳಲ್ಲಿ ಬೇರೆಬೇರೆ ಹಂತಗಳಲ್ಲಿ ಕೊಡಬೇಕಾಗುವುದು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_06123_00344050839, best cost 1196.7 + 72338.4 = 73535.1 over 740 frames.
+knf_06123_00344050839 ಮಾಯ ತೆರೆದ ಕೆಳೆಗೆ ಪರಕೀಯ ವಿಮಾನಗಳು ಒಂದು ದೇಶದ ಮೇಲೆ ಅದರ ಒಪ್ಪಿಗೆಯಿಲ್ಲದೆ ಯ ಹಾರಾಡುವುದು ನಿಷೇಧ ನ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_06123_00425937714, best cost 1262.49 + 87271 = 88533.5 over 885 frames.
+knf_06123_00425937714 ಆದರೆ ಈ ಕಡ್ಡಾಯ ಎಂಬ ನಿಯಮವು ಮೂವತ್ತಾರು ಅಧಿನಿಯಮವನ್ನು ಒಂದೊಂದು ಬಾರಿ ಕಾರ್ಯಕ್ಷೇತ್ರದ ವ್ಯಾಪ್ತಿ ಬಗ್ಗೆ ತಪ್ಪಾಗಿ ಅರ್ಥೈಸಲಾಗುತ್ತದೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_06123_00469293098, best cost 957.347 + 67103.8 = 68061.2 over 698 frames.
+knf_06123_00469293098 ಭಾರತದ ಮಾಜಿ ವೇಗದ ಬೌಲರ್ ಮತ್ತು ಪಂಜಾಬಿ ನಟ ಯುವರಾಜ್ ಸಿಂಗ್ರ ಮಗನಾದ ಆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_06123_01461977831, best cost 676.234 + 59562.7 = 60239 over 595 frames.
+knf_06123_01461977831 ಇದರಲ್ಲಿ ಕೊನೆಯ ಗುಂಪು ವ್ಯತ್ಯಾಸವಾಗಬಲ್ಲ ಅಂಕಿಗಳ ಸಂಖ್ಯೆ ಹೊಂದಿರುತ್ತದೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_06123_01599183050, best cost 1002.55 + 76199 = 77201.5 over 757 frames.
+knf_06123_01599183050 ಗ್ರಾಮದಲ್ಲಿ ಫಲವತ್ತಾದ ಭೂಮಿ ಇರುವುದರಿಂದ ಅ ಇಪ್ಪತ್ತು ಪ್ರತಿಶತ ಜನಸಂಖ್ಯೆ ಕೃಷಿಯಲ್ಲಿ ನಿರತರಾಗಿದ್ದಾರೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_07345_00588277191, best cost 1033.41 + 107814 = 108847 over 1116 frames.
+knf_07345_00588277191 ತತ್ತ್ವಜ್ಞರು ಜಗತ್ತಿನ ಸತ್ಯತೆ ವಿಚಿತ ಗಳನ್ನು ವಿಮರ್ಶಿಸುವಾಗ ಜಗತ್ತಿನಲ್ಲಿರುವ ಸತ್ಯವಾವುದು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_07345_01137318096, best cost 945.391 + 86757 = 87702.4 over 860 frames.
+knf_07345_01137318096 ಅಲ್ಲದೇ ಭವಿಷ್ಯದ ಬಹು ರಾಷ್ಟ್ರೀಯ ವೈಜ್ಞಾನಿಕ ಕಾರ್ಯಾಚರಣೆಗೆ ಪಟ್ಟಿಯ ವಿಷಯಗಳನ್ನು ಒದಗಿಸುತ್ತದೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_07345_01641316274, best cost 1088.73 + 104886 = 105975 over 1082 frames.
+knf_07345_01641316274 ಆಂತರಿಕ ದಹನಕಾರಿ ಇಂಜಿನ್ ಎಂದರೆ ಸಾಮಾನ್ಯವಾಗಿ ದಹನ ಅಂತರಿಕವಾಗಿರುವ ಆರ್ ಒಂದು ಎಂಜಿನ್ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_07345_01995564245, best cost 787.67 + 73390.5 = 74178.2 over 757 frames.
+knf_07345_01995564245 ಇದೇ ರೀತಿ ಚಳಿಗಾಲದ ಜವೆಗೋದಿಯ ತಳಿಯ ಮೊಳೆಯುತ್ತಿರುವ ಬೀಜಗಳನ್ನು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_07598_00253012742, best cost 659.724 + 58374.1 = 59033.8 over 587 frames.
+knf_07598_00253012742 ಗುರುತ್ವಾಕರ್ಷಣಾ ಮಾದರಿಯು ಮೂಲಭೂತವಾಗಿ ಆಮದಿಗೆ ಗಮನ ಕೊಡುತ್ತದೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_07598_01631680169, best cost 524.518 + 48356.1 = 48880.6 over 493 frames.
+knf_07598_01631680169 ಅಲ್ಲದೇ ಇದರ ಕಾಯಿಗಳಿಗಾಗಿ ಗ್ರಾಮಾಂತರ ಪ್ರದೇಶಗಳಲ್ಲಿ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_08476_00023010443, best cost 985.991 + 93156.1 = 94142.1 over 945 frames.
+knf_08476_00023010443 ತನ್ನ ವ್ಯವಹಾರದಿಂದ ಸಂಭವಿಸಬಹುದಾದ ಎಲ್ಲಾ ಲಾಭನಷ್ಟಗಳಿಗೂ ಈ ಸಂಸ್ಥೆಯೇ ಪೂರ್ಣವಾಗಿ ಹೊಣೆಯಾಗಿದೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_08476_00919951349, best cost 187.197 + 27063 = 27250.2 over 297 frames.
+knf_08476_00919951349 ಪ್ರಯೋಗಶೀಲತೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_08476_01140084904, best cost 1591.03 + 142531 = 144122 over 1432 frames.
+knf_08476_01140084904 ಪರಿಸ್ಥಿತಿಯ ಹೇಗೆ ದರ ದ್ವಿತೀಯ ಅಂತಾರಾಷ್ಟ್ರೀಯವು ಶ್ರಮಜೀವಿಗಳ ಅನೇಕ ಹೊರ ಆಟಗಳಲ್ಲಿ ಜಯಗಳಿಸಿ ಕಾರ್ಮಿಕರ ಆ ಚಳವಳಿಯನ್ನು ಪ್ರಭಾವಶಾಲಿಯನ್ನಾಗಿ ಮಾಡಿತು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_09123_01087915920, best cost 1553.87 + 168064 = 169618 over 1747 frames.
+knf_09123_01087915920 ಭಾರತೀಯ ಬಾಂಧವರನ್ನು ಮತ್ತು ಪೋರ್ಚುಗೀಸರ ವಶದಲ್ಲಿದ್ದ ಇನ್ನುಳಿದ ವಸಾಹತುಗಳನ್ನು ಭಾರತ ಹೇಗೆ ಮುಕ್ತಿಗೊಳಿಸಿತೆಂಬುದು ಇಂದಿನ ಇತಿಹಾಸಕ್ಕೆ ಸೇರಿಕೊಂಡಿರುವ ವಿಷಯ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_09123_01402865830, best cost 1852.56 + 155741 = 157594 over 1619 frames.
+knf_09123_01402865830 ತತ್ತಿ ಯ ಮಾನದಂಡ ನ ಅಂಕ ಅಂಗೀಕೃತ ಪದ್ದತಿಯಲ್ಲಿ ಬಳಸಲಾಗುತ್ತದೆ ಇನ್ ಮತ್ತು ಗುಣಮಟ್ಟದ ಕೆಲಸ ನ ಎಂದು ವೇಳೆ ಕಾಮನ್ ಏನು ಚರ್ಚೆಗೆ ಅವಕಾಶ ಎಂದು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_09696_00069342685, best cost 1046.77 + 79615.7 = 80662.5 over 783 frames.
+knf_09696_00069342685 ಮಾಗಿದ ಹಣ್ಣುಗಳನ್ನು ಕಿತ್ತು ಹಣ್ಣಿನಮೇಲೆ ಹಣ್ಣು ಬೀಳದಂತೆ ಇತರೆ ಕೇಂದ್ರ ಮರದ ತಟ್ಟೆಯಲ್ಲಿಡುತ್ತಾರೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_09696_00132652399, best cost 1221.74 + 93345 = 94566.8 over 903 frames.
+knf_09696_00132652399 ಪ್ರಪಂಚದಲ್ಲಿ ಪದೇ ಪದೇ ಸಂಭವಿಸುವ ಬಿಕ್ಕಟ್ಟುಗಳಿಗೂ ಯುದ್ಧಗಳಿಗೂ ರಾಷ್ಟ್ರಗಳ ನಡುವೆ ಈ ಸಹಕಾರ ಇಲ್ಲದಿರುವುದೇ ಕಾರಣ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_09696_00309359849, best cost 760.556 + 64091 = 64851.6 over 621 frames.
+knf_09696_00309359849 ಪಾತ್ರ ಹಾಗು ಜವಾಬ್ದಾರಿಗಳಿಗೆ ಅನುಸಾರವಾಗಿ ಅನ್ವಯಗಳನ್ನು ಬಳಕೆ ಮಾಡಬಹುದು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_09696_00375999980, best cost 1031.4 + 80765.7 = 81797.1 over 783 frames.
+knf_09696_00375999980 ಒಂದು ದೇಶದ ಅಂತರಿಕ್ಷ ಪ್ರದೇಶದಲ್ಲಿ ಯಾವ ಆ ಬಗ್ಗೆ ವಿಮಾನಗಳು ಹಾರಾಡಬಹುದೆಂಬುದನ್ನು ನಿಗದಿ ಮಾಡಿದ್ದಾರೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_09696_00657972668, best cost 1264.83 + 90945.5 = 92210.3 over 885 frames.
+knf_09696_00657972668 ಅಂಗಾಂಶ ಇಂಜಿನಿಯರಿಂಗ್ ಈಗ ಅ ಎದುರಿಸುತ್ತಿರುವ ಮುಖ್ಯ ಸವಾಲು ಏನೆಂದರೆ ಇದು ಇನ್ನೂ ಹೆಚ್ಚಿನ ಕಾರ್ಯನಿರ್ವಹಣೆಯನ್ನು ಹೊಂದುವಂತಹುದ್ದಾಗಬೇಕಾಗಿದೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_09696_00779393186, best cost 843.912 + 59505.6 = 60349.5 over 587 frames.
+knf_09696_00779393186 ಈ ವ್ಯವಹಾರ ಶಿಕ್ಷಣ ವಂತರಿಗೆ ಮಾತ್ರ ಸಾಧ್ಯ ಅವಿದ್ಯಾವಂತರಿಗೆ ದ ಸೂಕ್ತವಲ್ಲ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_09696_01661748829, best cost 1200.6 + 84182.2 = 85382.8 over 817 frames.
+knf_09696_01661748829 ಭೌಗೋಳಿಕ ವಿಶೇಷತೆ ಮತ್ತು ಕ್ರಮ ವಿಭಜನೆ ಎಲ್ಲಾ ದೇಶಗಳು ಒಂದೇ ಏರಿಕೆ ಹವಗುಣ ಮತ್ತು ವಾಯುಗುಣ ಹೊಂದಿರುವುದಿಲ್ಲ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knf_09696_02009165869, best cost 694.921 + 65031.9 = 65726.8 over 647 frames.
+knf_09696_02009165869 ಹವಾಮಾನ ಅನನಕೂಲವಾಗಿದ್ದರೆ ಇವುಗಳನ್ನು ಒಂದು ದಿನದಲ್ಲಿ ಪೂರ್ಣಗೊಳಿಸುವುದಿಲ್ಲ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_00180_00250075112, best cost 365.076 + 56791.1 = 57156.2 over 647 frames.
+knm_00180_00250075112 ಇದೊಂದು ಪೌಷ್ಟಿಕವಾದ ಹಣ್ಣು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_00180_00297370869, best cost 836.509 + 94400.8 = 95237.3 over 1031 frames.
+knm_00180_00297370869 ಈ ಬಗೆಯ ಚಿಲುಮೆಗಳು ತಮಿಳುನಾಡಿನ ನೈವೇಲಿಯ ಸುತ್ತಮುತ್ತ ಹೆಚ್ಚು ಕಂಡುಬರುತ್ತದೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_00180_01032527602, best cost 272.604 + 47490.8 = 47763.4 over 570 frames.
+knm_00180_01032527602 ತಾರ್ಕಿಕ ಸಿದ್ಧಾಂತ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_00180_01188180749, best cost 416.525 + 60484.4 = 60900.9 over 706 frames.
+knm_00180_01188180749 ಹನ್ನೆರಡು ಇಂಚುಗಳಿಗೆ ಒಂದು ಮಾಡಿ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_00180_01979139119, best cost 749.732 + 87661.2 = 88410.9 over 988 frames.
+knm_00180_01979139119 ಅಂಜೂರದ ವ್ಯವಸಾಯಕ್ಕೆ ಅಕ್ಕಿ ಫಲವತ್ತಾದ ಮಣ್ಣು ಬೇಕಾಗಿಲ್ಲ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_00180_01994023075, best cost 918.182 + 107520 = 108438 over 1167 frames.
+knm_00180_01994023075 ಈ ಚಿತ್ರಗಳ ಆಸೆಯಿಂದಾಗಿ ಇಂತಹ ಚೀಟಿಗಳನ್ನು ಸಂಗ್ರಹಿಸುವುದೇ ಅನೇಕರ ಹವ್ಯಾಸವಾಗಿದೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_00271_00413960012, best cost 972.213 + 70637.9 = 71610.1 over 698 frames.
+knm_00271_00413960012 ಈ ಸಮ್ಮೇಳನ ಹಾಕಿ ಮರ ಬ್ಯಾಂಕುಗಳೊಳಗೆ ಬೆಳೆಯಬೇಕಾದ ಸಹಕಾರದ ಆವಶ್ಯಕತೆಯನ್ನು ಒತ್ತಿ ಹೇಳಿತು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_00271_00720410666, best cost 534.608 + 43431.6 = 43966.2 over 433 frames.
+knm_00271_00720410666 ಈ ನಿಯೋಗವು ನಿಮ್ಮ ಗಮ್ಯಸ್ಥಾನವನ್ನು ತಲುಪುತ್ತೀರಿ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_00271_01073654763, best cost 1045.73 + 90648.3 = 91694.1 over 903 frames.
+knm_00271_01073654763 ಶಸ್ತ್ರ ಚಿಕಿತ್ಸೆಯಲ್ಲಿ ಕತ್ತಿ ಮುಂತಾದ ಶಲ್ಯಗಳು ಇವನ್ನು ಸೋಕಿದರೆ ಅಪಾಯ ಎಂದೂ ಹೇಳಲಾಗಿದೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_00271_01157281735, best cost 451.749 + 41350.3 = 41802.1 over 450 frames.
+knm_00271_01157281735 ಈ ನಿಮ್ಮ ಗಮ್ಯಸ್ಥಾನ ಆ ಎಡಕ್ಕಿದೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_00271_01689467106, best cost 726.33 + 73778.6 = 74504.9 over 749 frames.
+knm_00271_01689467106 ಎಳೆಯುವುದನ್ನು ಬಿಟ್ಟರೆ ಶಕ್ತಿಯು ಚಲನಾತ್ಮಕ ಶಕ್ತಿಯಾಗಿ ಪರಿವರ್ತನೆಯಾಗುತ್ತದೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_00378_01481393426, best cost 1134.1 + 97758.7 = 98892.8 over 1013 frames.
+knm_00378_01481393426 ಕೆಲವು ರಾಜ್ಯಗಳು ಇಂತಹ ಪ್ರಕರಣಗಳ ಅ ಇತ್ಯರ್ಥಕ್ಕೆ ನ್ಯಾಯಾಲಯವನ್ನು ಅವಲಂಬಿಸದೇ ಅದರ ತೀರ್ಪನ್ನೂ ಕೂಡ ತಿರಸ್ಕರಿಸಬಹುದಾಗಿದೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_00378_02016627830, best cost 733.02 + 59438.4 = 60171.4 over 621 frames.
+knm_00378_02016627830 ಶಾತವಾಹನರ ಕಾಲದಲ್ಲಿ ಐದು ಎಂಬ ಅಂಕಿ ಎರಡು ರೂಪಗಳಲ್ಲಿ ದೊರೆಯುತ್ತವೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_00417_00447310727, best cost 331.081 + 49134.5 = 49465.5 over 587 frames.
+knm_00417_00447310727 ನೇರವಾಗಿ ಮುಂದುವರಿ ಫೋರ್ಕ್ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_00417_00700549465, best cost 434.324 + 49628.5 = 50062.8 over 553 frames.
+knm_00417_00700549465 ನೀವು ನಿಮ್ಮ ಗಮ್ಯಸ್ಥಾನವನ್ನು ತಲುಪುತ್ತೀರಿ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_00417_00709181952, best cost 368.773 + 43651.9 = 44020.6 over 484 frames.
+knm_00417_00709181952 ವೃತ್ತಾಕಾರದಲ್ಲಿ ರಾಂಪ್‌ನಲ್ಲಿಗೆ ನಿರ್ಗಮಿಸಿ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_00417_01029527050, best cost 262.024 + 30142.8 = 30404.9 over 339 frames.
+knm_00417_01029527050 ಇಳಿಜಾರಿನಲ್ಲಿ ಮುಂದುವರಿಸಿ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_00417_01444549725, best cost 228.205 + 28080.9 = 28309.1 over 331 frames.
+knm_00417_01444549725 ನೇರವಾಗಿ ಮುಂದುವರಿ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_00574_00067666596, best cost 217.64 + 22257.5 = 22475.1 over 245 frames.
+knm_00574_00067666596 ಮುನ್ನೂರು ಅಡಿಗಳಲ್ಲಿ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_00574_01153125164, best cost 498.16 + 44448.4 = 44946.6 over 459 frames.
+knm_00574_01153125164 ನಿಲ್ದಾಣದ ಮೂಲಕ ಮುಕ್ತವಾಗಿ ತೇಲಾಡುತ್ತ ಮಲಗಬಹುದು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_00574_01541345543, best cost 1238.37 + 88743.5 = 89981.9 over 903 frames.
+knm_00574_01541345543 ಇದಾದಮೇಲೆ ವಿಯೆನ್ನಾದಲ್ಲಿ ಸಾವಿರದೊಂಬೈನೂರ ಹದಿನಾಲ್ಕರಲ್ಲಿ ಸೇರಿದ ಸಮ್ಮೇಳನದಲ್ಲಿಯೂ ಈ ಪ್ರಶ್ನೆಯ ಚರ್ಚೆಗೆ ಇನ್ನು ಹೆಚ್ಚು ಪ್ರಾಶಸ್ತ್ಯ ದೊರೆಯಿತು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_00574_01758939200, best cost 229.059 + 22429.7 = 22658.7 over 237 frames.
+knm_00574_01758939200 ಮುನ್ನೂರು ಮೀಟರ್‌ಗಳಲ್ಲಿ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_00811_00180081283, best cost 690.429 + 60260.9 = 60951.3 over 595 frames.
+knm_00811_00180081283 ಅದರಲ್ಲೂ ವಿಶೇಷವಾಗಿ ಅವರಿರುವ ಸ್ಥಳದಲ್ಲಿ ಸಂಕೀರ್ಣ ಬಹುದು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_00811_00286463587, best cost 956.805 + 78957.3 = 79914.1 over 809 frames.
+knm_00811_00286463587 ಪ್ರತಿಯನ್ನು ವ್ಯಾಪಾರ ಘಟಕವು ತನ್ನ ದಾಖಲೆಗಳ ಆಧಾರದ ಆನ್ಲೈನ್ ಪ್ರತಿಯನ್ನು ನವೀಕರಿಸಿಕೊಳ್ಳಬಹುದು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_00811_01884768925, best cost 1252.89 + 85414.5 = 86667.4 over 826 frames.
+knm_00811_01884768925 ಅಲ್ಲದೆ ಲಾಂಗ್ ಹತ್ತು ಹೈಜಂಪ್ ಕಡೆ ರಲ್ಲಿ ಎರಡನೆ ಸ್ಥಾನ ಪಡೆದುಕೊಳ್ಳುವ ಮೂಲಕ ಮಹಿಳಾ ಚಾಂಪಿಯನ್ ಅವರು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_01099_01948197248, best cost 682.349 + 47455.5 = 48137.8 over 484 frames.
+knm_01099_01948197248 ಕೇಶವ ದೇವಾಲಯದ ಮೂರ್ತಿ ಒಂದು ಉತ್ತಮ ಗ್ರಹಿಸಲು ಶಿಲ್ಪ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_01114_00206224816, best cost 1637.66 + 141725 = 143363 over 1423 frames.
+knm_01114_00206224816 ಮೊದಲನೆಯದಾಗಿ ಹೊರದೇಶದ ಬೇಡಿಕೆಯ ಅಥವಾ ನೀಡಿಕೆಯ ಆಧಾರದ ಮೇಲೆ ಉದ್ದೇಶದ ಉತ್ಪನ್ನ ವ್ಯವಸ್ಥೆಯನ್ನು ರಚಿಸುವಲ್ಲಿ ಒಂದು ದೇಶದ ಉದ್ಯಮಿಗಳು ವಿಶೇಷವಾದ ಹೊಣೆಗಾರಿಕೆ ವಹಿಸಬೇಕಾಗುವುದು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_01114_01558059071, best cost 991.483 + 86114.2 = 87105.7 over 885 frames.
+knm_01114_01558059071 ಅಂಡಮಾನಿನ ಪುಲಗ ಹಾಗೂ ಪ್ರಾಚೀನ ಭಾರತದ ವರುಣ ಅಂತರಿಕ್ಷದೇವತೆಯ ರೂಪವೆಂದು ತಿಳಿದುಬಂದಿದೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_01114_01733197529, best cost 525.766 + 54543.9 = 55069.6 over 604 frames.
+knm_01114_01733197529 ಇದರೊಂದಿಗೆ ಅ ಹೈನುಗಾರಿಕೆಯು ಪ್ರಮುಖ ಉದ್ಯೋಗವಾಗಿದೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_01114_01785099367, best cost 589.913 + 63728.9 = 64318.8 over 664 frames.
+knm_01114_01785099367 ನಿಲ್ದಾಣಕ್ಕೆ ಯಾವುದೇ ನಷ್ಟವಾಗಿಲ್ಲವೆಂದು ತಕ್ಷಣವೇ ವರದಿಮಾಡಲಾಗಿತ್ತು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_01114_01952481449, best cost 1038.29 + 90428.6 = 91466.9 over 903 frames.
+knm_01114_01952481449 ಅಂಚೆಯ ಸೇವೆಯು ಪ್ರತಿಯೊಂದು ಸಂಕೇತಕ್ಕೆ ಸಂಬಂಧಿಸಿದಂತೆ ಒಂದು ಪೂರ್ವನಿಶ್ಚಿತ ಏಕ ಸ್ಥಳನಾಮವನ್ನು ನಿಗದಿಪಡಿಸುತ್ತದೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_01114_02131004156, best cost 995.423 + 99113.6 = 100109 over 1056 frames.
+knm_01114_02131004156 ವಿಳಂಬಗಳಿಂದಾಗಿ ಎರಡು ಸಾವಿರ ಹನ್ನೊಂದನೇ ವರ್ಷದಲ್ಲಿ ಸಂಪೂರ್ಣಗೊಳ್ಳುವುದೆಂದು ಪುಲಗ ಅಂದಾಜುಮಾಡಲಾಯಿತು ಫೋರ್ಕ್ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_01402_00421338272, best cost 443.841 + 43163.4 = 43607.3 over 450 frames.
+knm_01402_00421338272 ಸಂಚಿತ ಠೇವಣಿ ಮೊತ್ತ ರೂಪಾಯಿಗಳು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_01672_01257232352, best cost 902.344 + 72588.8 = 73491.1 over 740 frames.
+knm_01672_01257232352 ಹಿಮದ ರೂಪದಲ್ಲಿರುವ ನೀರು ಪ್ರಮುಖವಾಗಿ ಭೂಮಿಯ ಉತ್ತರ ಆಮದು ದಕ್ಷಿಣ ಅವುಗಳಲ್ಲಿ ಕಂಡುಬರುತ್ತದೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_02352_00284551281, best cost 960.958 + 63972.3 = 64933.3 over 638 frames.
+knm_02352_00284551281 ಗಿಡದ ಕಾಂಡವನ್ನು ಕಾಯಂ ಮಾಡಿದಾಗ ರ ಜಿನುಗುವ ಒಂದು ಹೋಗಿ ಗುಂಪಿಗೆ ಸೇದು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_02352_00695383559, best cost 537.768 + 30549.1 = 31086.8 over 305 frames.
+knm_02352_00695383559 ಇದನ್ನು ಒ ಮೂಳೆ ಸೋಕಿದರೆ ಎನ್ನುವರು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_02533_01391504435, best cost 260.909 + 35563.8 = 35824.7 over 416 frames.
+knm_02533_01391504435 ನೀವು ತಲುಪಿದ್ದೀರಿ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_02533_01776562000, best cost 254.631 + 34151.3 = 34405.9 over 395 frames.
+knm_02533_01776562000 ಎಡದಲ್ಲಿ ನಿರ್ಗಮಿಸಿ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_02894_00066960331, best cost 791.979 + 61777.9 = 62569.8 over 629 frames.
+knm_02894_00066960331 ಬಾವಿಯಿಂದ ನೀರನ್ನು ಪಂಪು ಮಾಡುವಾಗ ನೀರಿನ ಮಟ್ಟದ ಕಡಿಮೆಯಾಗುತ್ತ ಹೋಗುತ್ತದೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_02894_00268521638, best cost 808.848 + 74511.1 = 75319.9 over 749 frames.
+knm_02894_00268521638 ಒಂದು ಕಾಲದಲ್ಲಿ ಈ ದೇವತೆಯ ಒಳಗಾಗಿ ತುಂಬ ಉದಾತ್ತನಾಗಿ ಕಾಣಿಸುತ್ತಾನೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_02894_00579278647, best cost 447.726 + 47350.4 = 47798.1 over 484 frames.
+knm_02894_00579278647 ಅವರು ಪ್ರಕೃತಿಗಿಂತ ಹೆಚ್ಚು ಸ್ವತಂತ್ರರು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_02894_00791849142, best cost 834.373 + 68626.5 = 69460.8 over 672 frames.
+knm_02894_00791849142 ಅಲ್ಲದೆ ಕೆಲವು ವ್ಯವಸ್ಥೆಗಳಲ್ಲಿ ಅಗತ್ಯಕ್ಕಿಂತ ಹೆಚ್ಚು ಕ್ಷೇತ್ರವನ್ನು ಉಂಟು ಮಾಡಿತು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_02894_00839207207, best cost 451.862 + 48295.5 = 48747.4 over 510 frames.
+knm_02894_00839207207 ಅಂತರಿಕ್ಷದೇವತೆಗಳಲ್ಲಿ ವಿರುದ್ಧ ಅನ್ನು ಸೇರಿದ್ದಾನೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_02910_00134838960, best cost 2164.16 + 135075 = 137239 over 1338 frames.
+knm_02910_00134838960 ಅ ಬಾಲಕ ಪಿ ದೀಪ್ ಬಳಸಲಾಗುತ್ತದೆ ಬಿಗ್ ಟಿ ಜಿ ಜನರೇಟರ್ ಕಂಬೈನ್ಡ್ ಆವರ್ತನ ಶಕ್ತಿ ಸ್ಥಾವರವು ಅಳಿಸಿ ಈ ಎಸ್ ದೊಡ್ಡ ವಿದ್ಯುತ್ ಉತ್ಪಾದಕಗಳ ಕೆಲವು ಶಕ್ತಿ ಈ ವಿದ್ಯುತ್ ಗ್ರಿಡ್ ಚಾಲನೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_02910_00861523707, best cost 859.981 + 78270.3 = 79130.2 over 792 frames.
+knm_02910_00861523707 ಕೇವಲ ರಾಜ್ಯಗಳು ಮಾತ್ರ ಇಂತಹ ಕಲಹಗಳ ಬಗೆಹರಿಸುವ ಪ್ರಕರಣದಲ್ಲಿ ಪಕ್ಷಗಾರರಾಗಿರುತ್ತವೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_02910_01319353513, best cost 883.424 + 57382 = 58265.4 over 570 frames.
+knm_02910_01319353513 ಅ ಕೆಲವು ಜಾಗಗಳಲ್ಲಂತೂ ಅಲ್ಲಿನ ಸುಣ್ಣಕಲ್ಲುಗಳ ತುಂಬ ರ ಇವೆ ತುಂಬಿಕೊಂಡಿವೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_02910_01881379738, best cost 887.144 + 69968.5 = 70855.6 over 698 frames.
+knm_02910_01881379738 ಈ ಈ ಅಂಟು ಪದಾರ್ಥಗಳನ್ನು ದ್ರಾವಣಗಳ ರೂಪದಲ್ಲಿ ಬಳಸುವುದಾದರೆ ದ್ರಾವಕವನ್ನು ಆವಿಯಾಗಿಸಬೇಕು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_03197_00092877894, best cost 943.737 + 75072.6 = 76016.3 over 757 frames.
+knm_03197_00092877894 ಅಂಟು ಚಿತ್ರಣ ಕಲೆ ಎನ್ನುವುದು ಪ್ರಮುಖವಾಗಿ ದೃಗ್ಗೋಚರ ಕಲೆಗಳಲ್ಲಿನ ವ್ಯವಸ್ಥಿತ ಕಲೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_03197_00565590958, best cost 603.324 + 40617.5 = 41220.9 over 399 frames.
+knm_03197_00565590958 ವಿದೇಶಿ ವ್ಯವಹಾರವು ತೀವ್ರ ಬಿ ಪುಡಿ ಸೃಷ್ಟಿಸುತ್ತದೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_03197_01853506118, best cost 455.97 + 40644 = 41100 over 416 frames.
+knm_03197_01853506118 ಅಂಕೋಲ ನಂಬುವುದು ಮಲೆಯಾಳಮ್ ಭಾಷೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_04526_00306702177, best cost 1152.21 + 121188 = 122340 over 1227 frames.
+knm_04526_00306702177 ಗಗನಯಾತ್ರೆ ಇಪ್ಪತ್ತರ ಸಿಬ್ಬಂದಿಯನ್ನು ಎರಡು ಪ್ರತ್ಯೇಕ ಸೊಯುಜ್ ವಿಮಾನಗಳ ಮೂಲಕ ಆ ನಿಲ್ದಾಣಕ್ಕೆ ಕಳುಹಿಸಲಾಯಿತು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_04526_01423735476, best cost 760.021 + 70531.9 = 71291.9 over 775 frames.
+knm_04526_01423735476 ಆ ಚಿಕಿತ್ಸೆ ಮಾಡಿದರೆ ತಗ್ಗಿದ ಉಷ್ಣತೆಯ ಪ್ರಭಾವ ತಪ್ಪಿ ಹೋಗುತ್ತದೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_04526_01784604936, best cost 460.119 + 44286.6 = 44746.7 over 493 frames.
+knm_04526_01784604936 ಈ ದೊಡ್ಡ ಆ ನಾಡಿಗಳು ಧಮನಿಗಳು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_04689_00182748448, best cost 678.553 + 56034.7 = 56713.3 over 544 frames.
+knm_04689_00182748448 ಈ ಎರಡು ಚಿಹ್ನೆಗಳನ್ನು ಕೂಡಿಸಿ ದೊಡ್ಡ ದೊಡ್ಡ ಸಂಖ್ಯೆಗಳನ್ನು ಬರೆಯುತ್ತಿದ್ದರು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_04689_01225384356, best cost 1184.48 + 91287.8 = 92472.3 over 885 frames.
+knm_04689_01225384356 ಈ ಅಂಡಾಶಯದಲ್ಲಿ ತರಗತಿ ಬೆಳೆಯುವ ಅಂತ ದಲ್ಲಿ ಅಮೆರಿಕಾ ಜೀವಕಣಗಳು ಗ್ರಾಫಿಯನ್ ಫಾಲಿಕಲ್ ರಚನೆಯಲ್ಲಿ ಪಾಲ್ಗೊಳ್ಳುತ್ತವೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_04689_01301971750, best cost 1024.25 + 67503.5 = 68527.7 over 638 frames.
+knm_04689_01301971750 ಬಹು ಮನೋವಿಜ್ಞಾನ ರಂಗದಲ್ಲಿ ಸ್ವರೂಪಾತ್ಮಕ ಸಿದ್ಧಾಂತ ಅ ಎಂಬ ಒಂದು ಉಪಾಂತ ವಾನರ ಸ್ಥಾಪಿಸಿದ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_04689_01510178774, best cost 1531.53 + 130935 = 132466 over 1278 frames.
+knm_04689_01510178774 ಮೊದಲ ನಿಯಮ ಮಹಾಯುದ್ಧದ ಅನಂತರ ದ್ವಿತೀಯ ಅಂತಾರಾಷ್ಟ್ರೀಯವು ಪ್ರಪಂಚದ ಶ್ರಮಜೀವಿಗಳ ಮುನ್ನಡೆಗೆ ಒ ಕಂಟಕವಾಯಿತಲ್ಲದೆ ಯುದ್ಧ ಸಮಾಜವಾದದ ಗುರಿಯಿಂದಲೂ ಹಿಮ್ಮೆಟ್ಟಿತು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_04689_01549231729, best cost 171.877 + 22285.7 = 22457.6 over 254 frames.
+knm_04689_01549231729 ನೀರು ಈ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_04689_01551799385, best cost 464.049 + 39168.9 = 39633 over 416 frames.
+knm_04689_01551799385 ಇದ್ದು ಪ್ರಕರಣಗಳು ಮತ್ತು ಎಲ್ಲಾ ಪಡೆಗಳು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_04689_01975694503, best cost 781.936 + 79902.5 = 80684.5 over 809 frames.
+knm_04689_01975694503 ಪ್ರಕೃತಿಯ ಮಹತ್ಕಾರ್ಯಗಳನ್ನೆಲ್ಲ ಆಕಾಶ ದೇವತೆಗೆ ಹೇಳಿರುವುದರ ಅಕ್ಕ ಸ್ಪಷ್ಟವಾಗುವುದು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_04705_01063045145, best cost 523.718 + 57194.2 = 57717.9 over 621 frames.
+knm_04705_01063045145 ವಿಷಯವನ್ನು ಸಂಗ್ರಹಿಸಿ ಒಂದು ನಕ್ಷೆಯನ್ನು ತಯಾರಿಸಬಹುದು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_04705_01735869449, best cost 661.236 + 63158.9 = 63820.2 over 723 frames.
+knm_04705_01735869449 ಈ ಪನ್ನಾ ಎಂಬ ಜಿಲ್ಲೆಯಲ್ಲಿ ವಜ್ರ ವೇಗ ಗಣಿಗಳಿವೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_04992_00776173417, best cost 292.385 + 29270.6 = 29563 over 331 frames.
+knm_04992_00776173417 ಟಿ ತ್ಯಾಜ್ಯ ಪ್ರಕಾರ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_04992_00895591669, best cost 200.097 + 34580 = 34780.1 over 391 frames.
+knm_04992_00895591669 ವಿಶಿಷ್ಟವೆನಿಸುವಂತೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_04992_01012029824, best cost 413.746 + 47773.1 = 48186.9 over 527 frames.
+knm_04992_01012029824 ಸರ್ಕಾರಿ ಮತ್ತು ಖಾಸಗಿ ಆಸ್ಪತ್ರೆಗಳು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_04992_01376466131, best cost 252.914 + 33685.9 = 33938.8 over 373 frames.
+knm_04992_01376466131 ಮತಚಲಾಯಿಸುವ ಹಕ್ಕು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_04992_01988393458, best cost 483.245 + 47651.4 = 48134.7 over 501 frames.
+knm_04992_01988393458 ತೀರಪ್ರದೇಶ ಹಿತಕರವಾದ ವಾಯುಗುಣವನ್ನು ಒಂದಿಲ್ಲ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_05066_00884053721, best cost 1123.73 + 94948.5 = 96072.3 over 979 frames.
+knm_05066_00884053721 ಈ ಬೌದ್ಧರ ಪಾಳಿ ತ್ರಿಪಿಟಕಗಳಲ್ಲಿ ಎರಡನೆಯದಾದ ಸುತ್ತಪಿಟಕದಲ್ಲಿ ಸೇರಿರುವ ವೈದ್ಯ ನಿಕಾಯಗಳಲ್ಲಿ ನಾಲ್ಕನೆಯದು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_05066_01394733757, best cost 131.024 + 16537.3 = 16668.4 over 194 frames.
+knm_05066_01394733757 ಅಲ್ಲದೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_05927_01284176879, best cost 144.569 + 22269.9 = 22414.4 over 263 frames.
+knm_05927_01284176879 ಪ್ರಾಣ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_05927_01695983387, best cost 1052.31 + 91566 = 92618.4 over 920 frames.
+knm_05927_01695983387 ಇಂತಹ ಘಟನೆಗಳಲ್ಲಿ ನಾಗರಿಕರೂ ಭಾಗವಹಿಸುವುದರಿಂದ ಮತ್ತು ಹಿಂಸಾಕೃತ್ಯಗಳು ನಡೆಯುವುದರಿಂದ ಇವಕ್ಕೆ ಅಂತರ್ಯುದ್ಧಗಳೆಂದು ಹೆಸರಾಗಿದೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_05927_01699170109, best cost 481.807 + 36303.4 = 36785.2 over 391 frames.
+knm_05927_01699170109 ಬಾಗಿಲಿಗೆ ಬಂದ ಜಾತಿಯ ನ ಸ್ವಾಗತಿಸಿ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_05927_01879350384, best cost 1014.95 + 79875.6 = 80890.6 over 792 frames.
+knm_05927_01879350384 ಗೂಟ ಮತ್ತು ರೆಂಬೆಗಳನ್ನು ತಾಯಿಗಿಡದಿಂದ ಪ್ರತ್ಯೇಕಿಸದೆ ಭೂಮಿಯಲ್ಲಿ ಹೂಳಿ ಹೊಸ ದವಸ ಸಸ್ಯಗಳನ್ನೇಳಿಸಬಹುದು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_06230_00046526226, best cost 617.455 + 54672.7 = 55290.2 over 536 frames.
+knm_06230_00046526226 ಅಂಟಿಸುವ ಪದರಗಳನ್ನು ಹೆಚ್ಚು ಒತ್ತಡಕ್ಕೆ ಒಳಪಡಿಸುವುದು ಅವಶ್ಯಕ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_06230_00132339674, best cost 436.465 + 48485.5 = 48922 over 561 frames.
+knm_06230_00132339674 ಇದು ಒಂದು ಈ ಪೊದೆ ಸಸ್ಯ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_06230_01024713546, best cost 869.046 + 68127.3 = 68996.4 over 698 frames.
+knm_06230_01024713546 ಹಳೆ ಎಲೆಗಳು ಉದುರುವುದಕ್ಕಿಂತ ಮುಂಚಿತವಾಗಿಯೇ ಅಫ್ ಹೊಸ ಚಿಕ್ಕ ಎಸ್ ಕಾಣಿಸಿಕೊಳ್ಳುತ್ತದೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_06230_01354268124, best cost 410.322 + 49676.5 = 50086.8 over 510 frames.
+knm_06230_01354268124 ಆದ್ದರಿಂದಲೇ ಶರೀರಕ್ರಿಯಾವಿಜ್ಞಾನವನ್ನು ನೋಡಬೇಕು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_06230_01433008341, best cost 380.042 + 24794.5 = 25174.5 over 254 frames.
+knm_06230_01433008341 ಆಗ ಮಧ್ಯದಲ್ಲಿ ಸೇರುವ ಉಂಟಾಗುತ್ತದೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_06500_00067582165, best cost 816.78 + 71318.2 = 72135 over 740 frames.
+knm_06500_00067582165 ನೀವು ಮಣ್ಣು ಬಾಸೆಲ್ ಎಂಬಲ್ಲಿ ಅಂತರಾಷ್ಟ್ರೀಯ ತೀರುವೆ ಬ್ಯಾಂಕಿಗೆ ಸ್ಥಾಪನೆಯಾಯಿತು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_06681_01385815476, best cost 715.249 + 89348.1 = 90063.3 over 988 frames.
+knm_06681_01385815476 ಹಾರ್ಮೋನ್ ಶತಮಾನದಲ್ಲಿ ಪ್ರವರ್ಧಮಾನಕ್ಕೆ ಬಂತು ಒಂದು ರಾಜ್ಯವಾಗಿತ್ತು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_06681_02093588741, best cost 861.841 + 113204 = 114066 over 1244 frames.
+knm_06681_02093588741 ಅಂತರರಾಷ್ಟ್ರೀಯ ಉಕ್ಕು ಕಾರ್ಟೆಲ್ಲು ಉತ್ಪನ್ನದ ಮೊತ್ತವನ್ನು ಯಶಸ್ವಿಯಾಗಿ ನಿರ್ಬಂಧಿಸಿತ್ತು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_06788_00979870381, best cost 244.483 + 37455.5 = 37700 over 433 frames.
+knm_06788_00979870381 ರಾಕೆಟ್ ವಿಜ್ಞಾನ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_06984_00866400530, best cost 212.461 + 24295.7 = 24508.1 over 263 frames.
+knm_06984_00866400530 ಇವೆ ಅಲ್ಲದೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_06984_01792045590, best cost 825.917 + 65803 = 66628.9 over 655 frames.
+knm_06984_01792045590 ಯೂರೋಪು ಪಿ ನ ಅನೇಕ ರಾಷ್ಟ್ರಗಳಲ್ಲಿ ಇತರ ಅಂಗಸಂಸ್ಥೆಗಳ ಸಂಖ್ಯೆ ಹೆಚ್ಚಿತು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_07221_00758933658, best cost 421.576 + 37477.2 = 37898.8 over 391 frames.
+knm_07221_00758933658 ಚರಕಸಂಹಿತೆಯಲ್ಲೇ ಈ ವಿಧಾನ ಹೇಳಿಲ್ಲ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_07524_00031785805, best cost 907.48 + 84667.2 = 85574.7 over 894 frames.
+knm_07524_00031785805 ಯಾಕೆಂದರೆ ಅದರ ಬಹು ಶಾಲೆಗಳು ಆಯಾ ರಾಜ್ಯಗಳು ಸ್ವಯಂ ಪ್ರೇರಣೆಯಿಂದ ಒಪ್ಪಲ್ಪಡುತ್ತವೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_07524_00050245068, best cost 341.44 + 39377.5 = 39718.9 over 450 frames.
+knm_07524_00050245068 ಧಾರ್ಮಿಕ ಚಿತ್ರಗಳು ಫೋರ್ಕ್ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_07524_00318896617, best cost 660.534 + 58567.5 = 59228 over 612 frames.
+knm_07524_00318896617 ಮಲಗಿದವರು ಕೊರತೆ ಶಬ್ದ ಮಾಡುವಾಗ ಕಿರುನಾಲಿಗೆ ಕಂಪಿಸುತ್ತದೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_07524_01722219606, best cost 959.432 + 83424.5 = 84383.9 over 843 frames.
+knm_07524_01722219606 ಈ ಒಂದೊಂದು ದೇವತೆಯೂ ಪರತತ್ತ್ವ ಸ್ವರೂಪವೆಂದು ಪ್ರತಿಪಾದಿಸಿರುವುದು ವೈದಿಕ ಧರ್ಮದ ವೈಶಿಷ್ಟ್ಯ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_07722_00794558679, best cost 286.921 + 38899.9 = 39186.8 over 408 frames.
+knm_07722_00794558679 ಅನೇಕ ಸಂದರ್ಭಗಳು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_07918_00101024522, best cost 805.671 + 55178.5 = 55984.2 over 536 frames.
+knm_07918_00101024522 ಅಂಟು ಚಿತ್ರಣವು ಈ ಇನ್ನು ಗುರುತಿಸಲು ಪ್ರೋಗ್ರಾಂ ವೇದಗಳ ಮೊಟ್ಟೆಯ ಕಲೆಹಾಕಲಾಗುವುದು 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_07918_00344390763, best cost 460.109 + 39578.6 = 40038.7 over 416 frames.
+knm_07918_00344390763 ಈ ಅನೇಕ ಸ್ಟೇಷನರಿ ಬಳಕೆಗಳಿಗಾಗಿ ಇವೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_08025_01005211078, best cost 215.021 + 24715.1 = 24930.1 over 280 frames.
+knm_08025_01005211078 ತೀರ ಸಾಮಾನ್ಯ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_08025_01815510700, best cost 1036.7 + 87157 = 88193.7 over 894 frames.
+knm_08025_01815510700 ತೊಡೆಸಂದಿಯ ಅಂಡವಾಯುಗಳು ಪುರುಷರ ಆ ಮತ್ತು ಮಹಿಳೆಯರಲ್ಲಿನ ಅಂಡವಾಯುವಿನ ಪೈಕಿ ಅತಿಸಾಮಾನ್ಯವಾದ ಬಗೆಯಾಗಿದೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_09140_00720736851, best cost 593.733 + 57171.2 = 57764.9 over 595 frames.
+knm_09140_00720736851 ನಿಲ್ದಾಣದ ಹತ್ತಿರವಿರುವ ತೂಕರಹಿತ ಪರಿಸರ ನಿರ್ಮಾಣವಾಗುತ್ತದೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_09140_01245552601, best cost 154.578 + 20211.9 = 20366.4 over 237 frames.
+knm_09140_01245552601 ಅಗತ್ಯವಿದೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_09140_01249646213, best cost 339.675 + 25677.9 = 26017.6 over 280 frames.
+knm_09140_01249646213 ಈ ಕೊಲಂಬಿಯ ವ್ಯಾಪಾರದ ಅಥವಾ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_09877_01386053555, best cost 504.046 + 40148.8 = 40652.9 over 433 frames.
+knm_09877_01386053555 ನಮ್ಮಲ್ಲಿ ಒಣಗಿಸಿ ಮಾರಾಟಕ್ಕೆ ಕಳುಹಿಸುವುದು ಕಡಿಮೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_09877_01488515142, best cost 437.218 + 42254.7 = 42691.9 over 450 frames.
+knm_09877_01488515142 ಕೇಸಿಯಿನ್ ಅಂಟು ಸರಂಧ್ರವಸ್ತುಗಳನ್ನು ಅಂಟಿಸುವುದಕ್ಕೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:99) For utterance knm_09877_01579354608, best cost 1173.78 + 95600.7 = 96774.4 over 979 frames.
+knm_09877_01579354608 ಹುಡುಕಾಟದ ಪರ್ವತ ಅಂಶಗಳನ್ನು ಸಾಮಾನ್ಯವಾಗಿ ಒಂದು ಪಟ್ಟಿಯ ರೂಪದಲ್ಲಿ ಪ್ರಸ್ತುತಪಡಿಸಲಾಗುತ್ತದೆ ಮತ್ತು ಇವನ್ನು ಹಿಟ್ಸ್ ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ 
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:124) Overall cost per frame is 99.3014 = 1.1094 [graph] + 98.192 [acoustic] over 136285 frames.
+LOG (lattice-best-path[5.5.891~1-37628]:main():lattice-best-path.cc:128) Done 200 lattices, failed for 0
+# Accounting: time=0 threads=1
+# Ended (code 0) at Sat Apr  3 02:14:26 IST 2021, elapsed time 0 seconds
