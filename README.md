@@ -99,6 +99,8 @@ where W* is the optimal word sequence, P(X|W) is the acoustic model probability,
 **Authors**: Mahesh Kumar T N, Adithya Jayan, Shreenidhi Bhat, Anvith M  
 **Supervisor**: Prof. A V Narasimhadhan  
 
+**Publication**: [Monophone and Triphone Acoustic Phonetic Model for Kannada Speech Recognition System | IEEE Conference Publication | IEEE Xplore](https://ieeexplore.ieee.org/document/9754636)  
+
 ## References
 
 1. Kaldi Speech Recognition Toolkit. "The Kaldi Speech Recognition Toolkit." 2011.
