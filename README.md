@@ -51,37 +51,23 @@ The triphone model demonstrates superior performance due to enhanced context-dep
 
 ## Implementation
 
-### Prerequisites
+### Requirements
 - Kaldi ASR Toolkit
-- Python 3.x
-- Audio processing libraries (sox, ffmpeg)
+- Audio processing capabilities for format conversion and feature extraction
 
-### Installation
+### Setup
 ```bash
 git clone https://github.com/Adithya-Jayan/nnet2-simple.git
 cd nnet2-simple
 ```
 
-### Data Preparation
-1. Audio preprocessing and format conversion
-2. Text normalization and phonetic transcription generation
-3. Dictionary creation with ILSL-compliant phonetic mappings
-4. Kaldi-format file generation for training
-
-### Training Pipeline
-```bash
-# Feature extraction
-./extract_features.sh
-
-# Monophone training
-./train_mono.sh
-
-# Triphone training
-./train_tri.sh
-
-# Decoding and evaluation
-./decode.sh
-```
+### Training Workflow
+The system follows standard Kaldi ASR training procedures:
+1. Audio feature extraction using MFCC coefficients
+2. Monophone model training with context-independent phonemes
+3. Triphone model training incorporating phonetic context
+4. Language model integration for improved recognition accuracy
+5. Decoding and performance evaluation on test data
 
 ## System Architecture
 
